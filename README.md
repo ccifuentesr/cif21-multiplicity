@@ -119,7 +119,7 @@ Row-by-row description of `Xxx.csv`.
 |		|	muratio_AC	|	-	|	mu ratio between A and C	|	As described by Montes et al. 2018.
 |		|	deltaPA_AB	|	deg	|	Difference of positional angle between A and B	|	As described by Montes et al. 2018.
 |		|	deltaPA_AC	|	deg	|	Difference of positional angle between A and C	|	As described by Montes et al. 2018.
-|		|	deltad_AB	|	-	|	Distance ratio between A and B	|	Described as ∆d/d_A.
+|		|	deltad_AB	|	-	|	Distance ratio between A and B	|	Described as $d_A-d_B/d_A$.
 |		|	deltad_AC	|	-	|	Distance ratio between A and C	|	Described as ∆d/d_A.
 |		|	s_AB	|	au	|	Projected physical separation between A and B	|	
 |		|	s_AC	|	au	|	Projected physical separation between A and C	|	
