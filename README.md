@@ -185,13 +185,10 @@ Row-by-row description of `Xxx.csv`.
 
 The following are parameters computed in this work.
 
-| File | Description | Input<sup id="a1">[1](#f1)</sup>| Output<sup id="a2">[2](#f2)</sup> | 
 | --- | --- | --- | --- | 
-| Xxx.py | ... | ... | ... |
-
-- Distance (pc): <img src="https://render.githubusercontent.com/render/math?math=d = 1000/\varpi">, with <img src="https://render.githubusercontent.com/render/math?math=\varpi"> the trigonometric parallax.
-- Apparent separation of two components (e.g. A and B) (arcsec): <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \times \sqrt{(\alpha_A-\alpha_B)^2 + (\delta_A-\delta_B)^2}">.
-- Total proper motion (km s-1): <img src="https://render.githubusercontent.com/render/math?math=\mu = \sqrt{(\mu_\alpha \cos{\delta})^2 - (\mu_\delta)^2}">.
+| Distance (pc) | <img src="https://render.githubusercontent.com/render/math?math=d = 1000/\varpi"> | <img src="https://render.githubusercontent.com/render/math?math=\varpi"> is the trigonometric parallax. | ... |
+| Apparent separation (e.g. A and B) (arcsec) | <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \times \sqrt{(\alpha_A-\alpha_B)^2 + (\delta_A-\delta_B)^2}"> | ... |
+| Total proper motion (km s-1) | <img src="https://render.githubusercontent.com/render/math?math=\mu = \sqrt{(\mu_\alpha \cos{\delta})^2 - (\mu_\delta)^2}"> | ... |
 
 ### Criteria for physical parity
 
