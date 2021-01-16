@@ -191,17 +191,16 @@ The following are parameters computed in this work.
 | Physical separation  | pc | <img src="https://render.githubusercontent.com/render/math?math=s = \rho d"> | |
 | Apparent separation (e.g. A and B)  | arcsec | <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \times \sqrt{(\alpha_A-\alpha_B)^2 + (\delta_A-\delta_B)^2}"> | |
 | Total proper motion | km s-1 | <img src="https://render.githubusercontent.com/render/math?math=\mu = \sqrt{(\mu_\alpha \cos{\delta})^2 - (\mu_\delta)^2}"> | |
-| Binding energy | J |  <img src="https://render.githubusercontent.com/render/math?math= U_g^* = -M_A M_B/r"> | We approximate <img src="https://render.githubusercontent.com/render/math?math= r \sim s">. |
-| Binding energy | J |  <img src="https://render.githubusercontent.com/render/math?math= "> | |
+| Binding energy | J |  <img src="https://render.githubusercontent.com/render/math?math= U_g^* = -M_A M_B/r"> | We approximate <img src="https://render.githubusercontent.com/render/math?math=r \sim s">. |
 
 ### Criteria for physical parity
 
-| <img src="https://render.githubusercontent.com/render/math?math= \mu"> ratio | - |  <img src="https://render.githubusercontent.com/render/math?math= (\mu {\rm ratio})^2 = \frac{(\mu_\alpha \cos{\delta}_A - \mu_\alpha \cos{\delta}_B)^2 + (\mu_\delta_A - \mu_\delta_B)^2}{(\mu_\alpha \cos{\delta})^2 + (\mu_\delta_A)^2} "> | |
-| Proper motion position angle difference (PA) | deg |  <img src="https://render.githubusercontent.com/render/math?math= \Delta PA = |PA_A-PA_B|"> | |
-| <img src="https://render.githubusercontent.com/render/math?math= \Delta d"> | - | <img src="https://render.githubusercontent.com/render/math?math= \Delta d = d_A-d_B/d_A"> | |
+| <img src="https://render.githubusercontent.com/render/math?math= \mu"> ratio | - |  <img src="https://render.githubusercontent.com/render/math?math=(\mu {\rm ratio})^2 = \frac{(\mu_\alpha \cos{\delta}_A - \mu_\alpha \cos{\delta}_B)^2 + (\mu_\delta_A - \mu_\delta_B)^2}{(\mu_\alpha \cos{\delta})^2 + (\mu_\delta_A)^2} "> | |
+| Proper motion position angle difference (PA) | deg |  <img src="https://render.githubusercontent.com/render/math?math=\Delta PA = |PA_A-PA_B|"> | |
+| <img src="https://render.githubusercontent.com/render/math?math= \Delta d"> | - | <img src="https://render.githubusercontent.com/render/math?math=\Delta d = d_A-d_B/d_A"> | |
 
 **Notes:** 
-- <img src="https://render.githubusercontent.com/render/math?math= \mu"> ratio and <img src="https://render.githubusercontent.com/render/math?math= \Delta PA"> defined by <a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.1332M/abstract" target="_blank">Montes et al. 2018</a>.
+- <img src="https://render.githubusercontent.com/render/math?math= \mu"> ratio and <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> defined by <a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.1332M/abstract" target="_blank">Montes et al. 2018</a>.
 - We define physical parity if:
 	- mu_ratio < 0.15 (0.25)
 	- deltaPA < 15 (Difference of less than 15 degrees in angle).
