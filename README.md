@@ -120,7 +120,7 @@ Row-by-row description of `Xxx.csv`.
 |		|	deltaPA_AB	|	deg	|	Difference of positional angle between A and B	|	As described by Montes et al. 2018.
 |		|	deltaPA_AC	|	deg	|	Difference of positional angle between A and C	|	As described by Montes et al. 2018.
 |		|	deltad_AB	|	-	|	Distance ratio between A and B	|	Described as <img src="https://render.githubusercontent.com/render/math?math=d_A-d_B/d_A"> .
-|		|	deltad_AC	|	-	|	Distance ratio between A and C	|	Described as ∆d/d_A.
+|		|	deltad_AC	|	-	|	Distance ratio between A and C	|	Described as <img src="https://render.githubusercontent.com/render/math?math=\Delta d/d_A">.
 |		|	s_AB	|	au	|	Projected physical separation between A and B	|	
 |		|	s_AC	|	au	|	Projected physical separation between A and C	|	
 |		|	Ug_AB	|	1E33 J	|	Binding energy between A and B	|	
@@ -183,11 +183,16 @@ Row-by-row description of `Xxx.csv`.
 
 ## Parameters
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+The following are parameters computed in this work.
 
-- d_pc, ed_pc
-- rho_arcsec
-- pm_total
+| File | Description | Input<sup id="a1">[1](#f1)</sup>| Output<sup id="a2">[2](#f2)</sup> | 
+| --- | --- | --- | --- | 
+| Xxx.py | ... | ... | ... |
+
+- Distance (pc): <img src="https://render.githubusercontent.com/render/math?math=d = 1000/\varpi">.
+- Apparent separation of two components (e.g. A and B) (arcsec): <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \times \sqrt{(\alpha_A-\alpha_B)^2 - (\delta_A-\delta_B)^2}">.
+- Total proper motion (km s-1): <img src="https://render.githubusercontent.com/render/math?math=\mu = \sqrt{(\mu_\alpha \cos{\delta})^2 - (\mu_\delta)^2}">.
+
 - mu_ratio
 - deltaPA
 - delta_d
