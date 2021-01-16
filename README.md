@@ -188,7 +188,7 @@ The following are parameters computed in this work.
 | Parameters | Unit | Formula | Annotations | 
 | --- | --- | --- | --- | 
 | Distance  | pc | <img src="https://render.githubusercontent.com/render/math?math=d = 1000/\varpi"> | <img src="https://render.githubusercontent.com/render/math?math=\varpi"> is the trigonometric parallax. |
-| Physical separation  | pc | <img src="https://render.githubusercontent.com/render/math?math= s = \rho d"> | |
+| Physical separation  | pc | <img src="https://render.githubusercontent.com/render/math?math=s = \rho d"> | |
 | Apparent separation (e.g. A and B)  | arcsec | <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \times \sqrt{(\alpha_A-\alpha_B)^2 + (\delta_A-\delta_B)^2}"> | |
 | Total proper motion | km s-1 | <img src="https://render.githubusercontent.com/render/math?math=\mu = \sqrt{(\mu_\alpha \cos{\delta})^2 - (\mu_\delta)^2}"> | |
 | Binding energy | J |  <img src="https://render.githubusercontent.com/render/math?math= U_g^* = -M_A M_B/r"> | We approximate <img src="https://render.githubusercontent.com/render/math?math= r \sim s">. |
