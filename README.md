@@ -1,5 +1,5 @@
 # Cool dwarfs in multiple systems
-## TBD
+## C. Cifuentes, J. A. Caballero and S. Agustí
   
 > This repository contains the code written for the work <a href="#" target="_blank">Cifuentes et al. 2021</a>.
 
@@ -16,9 +16,7 @@
 - [Parameters](#parameters)
 - [References](#references)
 - [Support](#support)
-- [License](#license)
 - [Suggested Resources](#resources)
-- [The CARMENES input catalogue of M dwarfs series](#volumes)
 
 ---
 
@@ -41,28 +39,27 @@
 
 ### Directories
 
-- Directory ./: Includes all the code files classified as detailed below and the master table (`Name.csv`). [XX files, YY MB]
+- Directory ./: Includes all the code files classified as detailed below and the master table (`cif21.multiplicity.csv`). [XX files, YY MB]
 - Directory ./Nnn: Includes ... [XX files, YY MB]
 
 The total size is ZZ MB.
 
 ### Files
 
-All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of output that it produces, `yyy` gives additional information about the output, and `zzz` enumerates the main variables involved. For example, the script `cif20.plot_literature_Mabs_SpT.py` produces an absolute magnitude vs. spectral type plot, and compares the values with those of the literature. The complete list of files and their description can be found below sorted by output, in alphabetical order.
+All files are named `cif21.xxx_yyy_zzz.py`, where `xxx` defines the kind of output that it produces, `yyy` gives additional information about the output, and `zzz` enumerates the main variables involved. For example, the script `cif20.plot_literature_Mabs_SpT.py` produces an absolute magnitude vs. spectral type plot, and compares the values with those of the literature. The complete list of files and their description can be found below sorted by output, in alphabetical order.
 
-| File | Description | Input<sup id="a1">[1](#f1)</sup>| Output<sup id="a2">[2](#f2)</sup> | 
+| File | Description | Input<sup id="a1">[1](#f1)</sup>| Output| 
 | --- | --- | --- | --- | 
 | Xxx.py | ... | ... | ... |
 
 1. <small id="f1"> ... </small> [↩](#a1) 
-2. <small id="f2"> ... </small> [↩](#a2)
 
 **Notes:** 
 - If necessary.
 
 ### The master table
 
-`Xxx.csv` is the full version of Table A.3 (summary table) in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>, available at the CDS via anonymous ftp to cdsarc.u-strasbg.fr(130.79.128.5) or via [*link to CDS in progress*]. The complete version available here contains 2483 rows and 175 columns. It is stored in the root directory and can be manipulated separately with tabular data managemente software such as <a href="http://www.star.bris.ac.uk/~mbt/topcat/" target="_blank">TOPCAT</a>.
+`cif21.multiplicity.csv` contains XXX rows and YYY columns. It is stored in the root directory and can be manipulated separately with tabular data management software such as <a href="http://www.star.bris.ac.uk/~mbt/topcat/" target="_blank">TOPCAT</a>.
 
 **Version history**
 
@@ -338,14 +335,6 @@ The following are the bibliographic references in alphabetical order consulted i
 ## Support
 
 Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.inta-csic.es`</a>.
-
----
-
-## License
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
 
 ---
 
