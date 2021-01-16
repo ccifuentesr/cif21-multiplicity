@@ -189,12 +189,15 @@ The following are parameters computed in this work.
 | --- | --- | --- | --- | 
 | Xxx.py | ... | ... | ... |
 
-- Distance (pc): <img src="https://render.githubusercontent.com/render/math?math=d = 1000/\varpi">.
-- Apparent separation of two components (e.g. A and B) (arcsec): <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \times \sqrt{(\alpha_A-\alpha_B)^2 - (\delta_A-\delta_B)^2}">.
+- Distance (pc): <img src="https://render.githubusercontent.com/render/math?math=d = 1000/\varpi">, with <img src="https://render.githubusercontent.com/render/math?math=\varpi"> the trigonometric parallax.
+- Apparent separation of two components (e.g. A and B) (arcsec): <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \times \sqrt{(\alpha_A-\alpha_B)^2 + (\delta_A-\delta_B)^2}">.
 - Total proper motion (km s-1): <img src="https://render.githubusercontent.com/render/math?math=\mu = \sqrt{(\mu_\alpha \cos{\delta})^2 - (\mu_\delta)^2}">.
 
-- mu_ratio
-- deltaPA
+### Criteria for physical parity
+
+- mu_ratio as defined by <a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.1332M/abstract" target="_blank">Montes et al. 2018</a>.
+- deltaPA ...
+
 - delta_d
 - Mass
 - -Ug*
