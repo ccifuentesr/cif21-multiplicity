@@ -183,6 +183,8 @@ Row-by-row description of `Xxx.csv`.
 
 ## Parameters
 
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 - d_pc, ed_pc
 - rho_arcsec
 - pm_total
