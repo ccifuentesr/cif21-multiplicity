@@ -197,9 +197,9 @@ The following are parameters computed in this work.
 
 | Parameters | Unit | Formula | Annotations | 
 | --- | --- | --- | --- | 
-| <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio | - |  <img src="https://render.githubusercontent.com/render/math?math=(\mu {\rm ratio})^2 = \frac{(\mu_\alpha \cos{\delta}_A - \mu_\alpha \cos{\delta}_B)^2+(\mu_\delta_A - \mu_\delta_B)^2}{(\mu_\alpha \cos{\delta})^2+(\mu_\delta_A)^2} "> | |
+| <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio | - |  <img src="https://render.githubusercontent.com/render/math?math=(\mu {\rm ratio})^2 = \frac{(\mu_\alpha \cos{\delta}_A - \mu_\alpha \cos{\delta}_B)^2 + (\mu_\delta_A - \mu_\delta_B)^2}{(\mu_\alpha \cos{\delta})^2 + (\mu_\delta_A)^2} "> | |
 | Proper motion position angle difference (PA) | deg |  <img src="https://render.githubusercontent.com/render/math?math=\Delta PA = \lvert PA_A-PA_B \rvert"> | |
-| <img src="https://render.githubusercontent.com/render/math?math= \Delta d"> | - | <img src="https://render.githubusercontent.com/render/math?math=\Delta d = d_A-d_B/d_A"> | |
+| <img src="https://render.githubusercontent.com/render/math?math=\Delta d"> | - | <img src="https://render.githubusercontent.com/render/math?math=\Delta d = d_A-d_B/d_A"> | |
 
 **Notes:** 
 - <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio and <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> defined by <a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.1332M/abstract" target="_blank">Montes et al. 2018</a>.
