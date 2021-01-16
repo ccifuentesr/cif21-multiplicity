@@ -13,6 +13,8 @@
 
 - [Installation](#installation)
 - [Structure](#structure)
+- [Parameters](#parameters)
+- [References](#references)
 - [Support](#support)
 - [License](#license)
 - [Suggested Resources](#resources)
@@ -183,9 +185,9 @@ Row-by-row description of `Xxx.csv`.
 
 ## Parameters
 
-The following are parameters computed in this work.
+The following parameters are computed in this work.
 
-| Parameters | Unit | Formula | Annotations | 
+| Parameter | Unit | Formula | Annotations | 
 | --- | --- | --- | --- | 
 | Distance  | pc | <img src="https://render.githubusercontent.com/render/math?math=d = 1000/\varpi"> | <img src="https://render.githubusercontent.com/render/math?math=\varpi"> is the trigonometric parallax. |
 | Physical separation  | au | <img src="https://render.githubusercontent.com/render/math?math=s = \rho d"> | |
@@ -195,7 +197,9 @@ The following are parameters computed in this work.
 
 ### Criteria for physical parity
 
-| Parameters | Unit | Formula | Annotations | 
+The following parameters are used to discriminate between physical and visual pairs.
+
+| Parameter | Unit | Formula | Annotations | 
 | --- | --- | --- | --- | 
 | <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio | - |  <img src="https://render.githubusercontent.com/render/math?math=(\mu {\rm ratio})^2 = \frac{(\mu_\alpha \cos{\delta}_A - \mu_\alpha \cos{\delta}_B)^2 %2B (\mu_\delta_A - \mu_\delta_B)^2}{(\mu_\alpha \cos{\delta})^2 %2B (\mu_\delta_A)^2} "> | |
 | Proper motion position angle difference (PA) | deg |  <img src="https://render.githubusercontent.com/render/math?math=\Delta PA = \lvert PA_A-PA_B \rvert"> | <img src="https://render.githubusercontent.com/render/math?math=PA_i"> is the angle between <img src="https://render.githubusercontent.com/render/math?math=\mu_\alpha \cos{\delta}_i"> and <img src="https://render.githubusercontent.com/render/math?math=\mu_{\delta,i}">.|
@@ -208,44 +212,21 @@ The following are parameters computed in this work.
 	- <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> < 15 deg.
 	- <img src="https://render.githubusercontent.com/render/math?math=\Delta d"> < 0.10.
 
----
+### Bolometric luminosities
 
-## References
+All luminosities were computed using the Virtual Observatory SED Analyzer (VOSA), using the BT-Settl CIFIST grid of models.
 
-### Spectral type
+### Masses
 
-| Reference | Link |
-| --- | --- |
-| AF15 | 2015A&A...577A.128A |
-| Bar14 | 2014ApJ...794..143B |
-| Cab10 | 2010A&A...520A..91C |
-| Can93 | 1993yCat.3135....0C |
-| Cab07b | 2007ApJ...667..520C |
-| Cif20 | 2020A&A...642A.115C (*) |
-| Clo02 | 2002ApJ...567L..53C |
-| Cru03 | 2003AJ....126.2421C |
-| Dhi02 | 2010AJ....139.2566D |
-| Dhi10 | 2010AJ....139.2566D |
-| Joy49 | 1949ApJ...109..231J |
-| Gau12 | 2012MNRAS.427.2457G |
-| Gra03 | 2003AJ....126.2048G |
-| Gra06 | 2006AJ....132..161G |
-| Hou88 | 1988MSS...C04....0H |
-| Hou99 | 1999MSS...C05....0H |
-| Joh86 | 1986ApJ...310..354J |
-| Lep13 | 2013AJ....145..102L |
-| McC99 | 1999ApJS..121....1M |
-| Mon18 | 2018MNRAS.479.1332M |
-| New14 | 2014AJ....147...20N |
-| Pec13 | 2013ApJS..208....9P (*) |
-| Rei08 | 2008AJ....136.1290R |
-| Ria06 | 2006AJ....132..866R |
-| Ste86 | 1986AJ.....92..139S |
-| Tsv08 | 2008AstL...34...17T |
+By priority:
 
-(*) Using the models.
+- Mass-Luminosity relation by Pec13 (polynomial fit in Python).
+- If SpT is known: Mass-SpT relation (Pec13, Cif20).
+	- Else: Mass-MG relation (Pec13, Cif20).
 
-** Priority for estimation of spectral types: **
+### Spectral types
+
+By priority:
 
 > Later or equal than K5 V:
 1. Via Lbol using Cif20.
@@ -257,75 +238,100 @@ The following are parameters computed in this work.
 3. Via MJ using Pec13.
 4. Via interpolation with known SpT using MG (w/o MJ or Lbol available).
 
+---
+
+## References
+
+The following are the bibliographic references in alphabetical order consulted in this work.
+
+### Spectral type
+
+<a href="#"> </a>
+
+| Reference | Link |
+| --- | --- |
+| AF15 | <a href="#">2015A&A...577A.128A</a> |
+| Bar14 | <a href="#">2014ApJ...794..143B</a> |
+| Cab10 | <a href="#">2010A&A...520A..91C</a> |
+| Can93 | <a href="#">1993yCat.3135....0C</a> |
+| Cab07b | <a href="#">2007ApJ...667..520C</a> |
+| Cif20 | <a href="#">2020A&A...642A.115C</a> (*) |
+| Clo02 | <a href="#">2002ApJ...567L..53C</a> |
+| Cru03 | <a href="#">2003AJ....126.2421C</a> |
+| Dhi02 | <a href="#">2010AJ....139.2566D</a> |
+| Dhi10 | <a href="#">2010AJ....139.2566D</a> |
+| Joy49 | <a href="#">1949ApJ...109..231J</a> |
+| Gau12 | <a href="#">2012MNRAS.427.2457G</a> |
+| Gra03 | <a href="#">2003AJ....126.2048G</a> |
+| Gra06 | <a href="#">2006AJ....132..161G</a> |
+| Hou88 | <a href="#">1988MSS...C04....0H</a> |
+| Hou99 | <a href="#">1999MSS...C05....0H</a> |
+| Joh86 | <a href="#">1986ApJ...310..354J</a> |
+| Lep13 | <a href="#">2013AJ....145..102L</a> |
+| McC99 | <a href="#">1999ApJS..121....1M</a> |
+| Mon18 | <a href="#">2018MNRAS.479.1332M</a> |
+| New14 | <a href="#">2014AJ....147...20N</a> |
+| Pec13 | <a href="#">2013ApJS..208....9P</a> (*) |
+| Rei08 | <a href="#">2008AJ....136.1290R</a> |
+| Ria06 | <a href="#">2006AJ....132..866R</a> |
+| Ste86 | <a href="#">1986AJ.....92..139S</a> |
+| Tsv08 | <a href="#">2008AstL...34...17T</a> |
+
+(*) Using the models.
+
 ### Discoverer
 
 | Reference | Link |
 | --- | --- |
-| Bal77 | 1977SvAL....3..272B |
-| Bur73 | 1873MNRAS..33..351B |
-| Cab07a | 2007A&A...462L..61C (KO 1) |
-| Cab07b | 2007ApJ...667..520C (KO 2 & KO 3) |
-| Cab12a | 2012Obs...132....1C (KO 4) |
-| Cab12b | 2012Obs...132..176C (KO 5) |
-| Cab12c | 2012Obs...132..252C (KO 6) |
-| Clo02 | 2002ApJ&567L..53C  |
-| Dhi10 | 2010AJ....139.2566D |
-| Dun29 | 1829MmRAS&3..257D |
-| Tak20 | 2020arXiv201004024T |
-| Tok79 | 1979SvAL&.5..229T |
-| Gau12 | 2012MNRAS.427.2457G |
-| Gic61 | 1961LowOB...5...61G |
-| Her26 | 1826MmRAS...2..459H |
-| Hor12 | 2012AJ....144..165H |
-| Jan06 | 2006A&A...453..609J |
-| Jan06 | 2006A&A...453..609J |
-| Jan14 | 2014ApJ...789..102J |
-| Kna15 | 2015JDSO...11..384K |
-| Law06 | 2006MNRAS.368.1917L |
-| Lep01 | 2001AJ....122.3407L |
-| Lep13 | 2013AJ....145..102L |
-| Loc13 | See WDS |
-| Lop11 | 2011JDSO....7...40L |
+| Bal77 | <a href="#">1977SvAL....3..272B</a> |
+| Bur73 | <a href="#">1873MNRAS..33..351B</a> |
+| Cab07a | <a href="#">2007A&A...462L..61C</a> (KO 1) |
+| Cab07b | <a href="#">2007ApJ...667..520C</a> (KO 2 & KO 3) |
+| Cab12a | <a href="#">2012Obs...132....1C</a> (KO 4) |
+| Cab12b | <a href="#">2012Obs...132..176C</a> (KO 5) |
+| Cab12c | <a href="#">2012Obs...132..252C</a> (KO 6) |
+| Clo02 | <a href="#">2002ApJ&567L..53C</a> |
+| Dhi10 | <a href="#">2010AJ....139.2566D</a> |
+| Dun29 | <a href="#">1829MmRAS&3..257D</a> |
+| Gau12 | <a href="#">2012MNRAS.427.2457G</a> |
+| Gic61 | <a href="#">1961LowOB...5...61G</a> |
+| Her26 | <a href="#">1826MmRAS...2..459H</a> |
+| Hor12 | <a href="#">2012AJ....144..165H</a> |
+| Jan06 | <a href="#">2006A&A...453..609J</a> |
+| Jan06 | <a href="#">2006A&A...453..609J</a> |
+| Jan14 | <a href="#">2014ApJ...789..102J</a> |
+| Kna15 | <a href="#">2015JDSO...11..384K</a> |
+| Law06 | <a href="#">2006MNRAS.368.1917L</a> |
+| Lep01 | <a href="#">2001AJ....122.3407L</a> |
+| Lep13 | <a href="#">2013AJ....145..102L</a> |
+| Loc13 | <a href="#">See WDS |
+| Lop11 | <a href="#">2011JDSO....7...40L</a> |
 | Ric96 | See WDS |
-| Sou24 | 1824RSPT..114R...1H |
-| Tok79 | 1979SvAL....5..229T |
-| Vys56 | 1956AJ.....61..201V |
-| Zac13 | 2013AJ....145...44Z |
+| Sou24 | <a href="#">1824RSPT..114R...1H</a> |
+| Tak20 | <a href="#">2020arXiv201004024T</a> |
+| Tok79 | <a href="#">1979SvAL....5..229T</a> |
+| Vys56 | <a href="#">1956AJ.....61..201V</a> |
+| Zac13 | <a href="#">2013AJ....145...44Z</a> |
 
 ### Parallaxes and proper motions
 
 | Reference | Link |
 | --- | --- |
-| CatWISE20 | 2020ApJS..247...69E |
-| Dhi10 | 2010AJ....139.2566D |
-| Dit14 | 2014ApJ...784..156D |
-| Gaia2 | 2018yCat.1345....0G |
-| HIP2 | 2007A&A...474..653V |
+| CatWISE20 | <a href="#">2020ApJS..247...69E</a> |
+| Dhi10 | <a href="#">2010AJ....139.2566D</a> |
+| Dit14 | <a href="#">2014ApJ...784..156D</a> |
+| Gaia2 | <a href="#">2018yCat.1345....0G</a> |
+| HIP2 | <a href="#">2007A&A...474..653V</a> |
 
 ### Radial velocity
 
 | Reference | Link |
 | --- | --- |
-| Bur15 | 2015ApJS..220...18B |
-| Gaia2 | 2018yCat.1345....0G |
-| New14 | 2014AJ....147...20N |
-| Shk10 | 2010ApJ...716.1522S |
-| Ter15 | 2015ApJS..220...16T |
-
-### Bolometric luminosities
-
-By priority:
-
-- VOSA: BT-Settl CIFIST, all parameters free. Visual inspection.
-- Using MJ as a proxy for luminosity (Cifuentes+20). **NO**
-
-### Masses
-
-By priority:
-
-- Mass-Luminosity relation by Pecaut+13 (polynomial fit in Python).
-- If SpT is known: Mass-SpT relation (Pecaut+13, Cifuentes+20).
-- Else: Mass-MG relation (Pecaut+13, Cifuentes+20).
+| Bur15 | <a href="#">2015ApJS..220...18B</a> |
+| Gaia2 | <a href="#">2018yCat.1345....0G</a> |
+| New14 | <a href="#">2014AJ....147...20N</a> |
+| Shk10 | <a href="#">2010ApJ...716.1522S</a> |
+| Ter15 | <a href="#">2015ApJS..220...16T</a> |
 
 ---
 
