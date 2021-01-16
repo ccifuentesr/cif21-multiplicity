@@ -181,6 +181,140 @@ Row-by-row description of `Xxx.csv`.
 
 ---
 
+## Parameters
+
+- d_pc, ed_pc
+- rho_arcsec
+- pm_total
+- mu_ratio
+- deltaPA
+- delta_d
+- Mass
+- -Ug*
+- s
+- Porb
+- mu_ratio and deltaPA (see Mon18) a
+- delta_d = (d_2 - d_1)/d_1
+- These parameters are calculated by pairs: AB and AC.
+
+Physical parity if:
+	mu_ratio < 0.15 (0.25)
+	deltaPA < 15 (Difference of less than 15 degrees in angle).
+	delta_d < 0.10 (Difference of less than 10% in distance).
+
+---
+
+## References
+
+### Spectral type
+
+AF15		2015A&A...577A.128A
+Bar14		2014ApJ...794..143B
+Cab10		2010A&A...520A..91C
+Can93		1993yCat.3135....0C
+Cab07b	2007ApJ...667..520C
+Cif20		2020A&A...642A.115C (*)
+Clo02		2002ApJ...567L..53C
+Cru03		2003AJ....126.2421C
+Dhi02		2010AJ....139.2566D
+Dhi10		2010AJ....139.2566D
+Joy49		1949ApJ...109..231J
+Gau12		2012MNRAS.427.2457G
+Gra03		2003AJ....126.2048G
+Gra06		2006AJ....132..161G
+Hou88		1988MSS...C04....0H
+Hou99		1999MSS...C05....0H
+Joh86		1986ApJ...310..354J
+Lep13		2013AJ....145..102L
+McC99		1999ApJS..121....1M
+Mon18		2018MNRAS.479.1332M
+New14		2014AJ....147...20N
+Pec13		2013ApJS..208....9P (*)
+Rei08		2008AJ....136.1290R
+Ria06		2006AJ....132..866R
+Ste86		1986AJ.....92..139S
+Tsv08		2008AstL...34...17T
+
+(*) Using their models.
+
+Priority for estimation
+
+> For M dwarfs:
+1. Via Lbol using Cif20
+2. Via MG using Cif20
+	
+> For non-M dwarfs:
+1. Via Lbol using Pec13
+2. Via MG using Pec13
+3. Via MJ using Pec13
+4. Via interpolation with known SpT using MG (w/o MJ or Lbol available).
+
+### Discoverer
+
+Bal77		1977SvAL....3..272B
+Bur73		1873MNRAS..33..351B
+Cab07a		2007A&A...462L..61C (KO 1)
+Cab07b		2007ApJ...667..520C (KO 2 & KO 3)
+Cab12a		2012Obs...132....1C (KO 4)
+Cab12b		2012Obs...132..176C (KO 5)
+Cab12c		2012Obs...132..252C (KO 6)
+Clo02		2002ApJ&567L..53C 
+Dhi10		2010AJ....139.2566D
+Dun29		1829MmRAS&3..257D
+Tak20		2020arXiv201004024T
+Tok79		1979SvAL&.5..229T
+Gau12		2012MNRAS.427.2457G
+Gic61		1961LowOB...5...61G
+Her26		1826MmRAS...2..459H
+Hor12		2012AJ....144..165H
+Jan06		2006A&A...453..609J
+Jan06		2006A&A...453..609J
+Jan14		2014ApJ...789..102J
+Kna15		2015JDSO...11..384K
+Law06		2006MNRAS.368.1917L
+Lep01		2001AJ....122.3407L
+Lep13		2013AJ....145..102L
+Loc13		See WDS
+Lop11		2011JDSO....7...40L
+Ric96		See WDS
+Sou24		1824RSPT..114R...1H
+Tok79		1979SvAL....5..229T
+Vys56		1956AJ.....61..201V
+Zac13		2013AJ....145...44Z
+
+### Parallaxes and proper motions
+
+CatWISE20	 2020ApJS..247...69E
+Dhi10		2010AJ....139.2566D
+Dit14		2014ApJ...784..156D
+Gaia2		2018yCat.1345....0G
+HIP2		2007A&A...474..653V
+
+### Radial velocity
+
+Bur15		2015ApJS..220...18B
+Gaia2		2018yCat.1345....0G
+New14		2014AJ....147...20N
+Shk10		2010ApJ...716.1522S
+Ter15		2015ApJS..220...16T
+
+### Bolometric luminosities
+
+By priority:
+
+- VOSA: BT-Settl CIFIST, all parameters free. Visual inspection.
+- Using MJ as a proxy for luminosity (Cifuentes+20). **NO**
+
+### Masses
+
+By priority:
+
+- Mass-Luminosity relation by Pecaut+13 (polynomial fit in Python).
+- If SpT is known: Mass-SpT relation (Pecaut+13, Cifuentes+20).
+- Else: Mass-MG relation (Pecaut+13, Cifuentes+20).
+
+---
+
 ## Support
 
 Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.inta-csic.es`</a>.
