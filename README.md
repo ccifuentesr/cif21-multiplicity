@@ -204,9 +204,9 @@ The following are parameters computed in this work.
 **Notes:** 
 - <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio and <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> defined by <a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.1332M/abstract" target="_blank">Montes et al. 2018</a>.
 - We define physical parity if:
-	- mu_ratio < 0.15 (0.25)
-	- deltaPA < 15 (Difference of less than 15 degrees in angle).
-	- delta_d < 0.10 (Difference of less than 10% in distance).
+	- <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio < 0.15.
+	- <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> < 15 deg.
+	- <img src="https://render.githubusercontent.com/render/math?math=\Delta d"> < 0.10.
 
 ---
 
