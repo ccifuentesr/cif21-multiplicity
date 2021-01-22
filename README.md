@@ -29,15 +29,14 @@
 
 ## Results
 
-<p float="left">
+<p float="center">
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png" width="49%" />
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png" width="49%" /> 
 </p>
-
-[![Usage](https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png)]()
-[![Usage](https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png)]()
-[![Usage](https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_Ug_M.png)]()
-[![Usage](https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_MG_GJ.png)]()
+<p float="center">
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_Ug_M.png" width="49%" />
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_MG_GJ.png" width="49%" /> 
+</p>
 
 ---
 
