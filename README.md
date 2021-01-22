@@ -30,8 +30,8 @@
 ## Results
 
 <p float="left">
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png" width="50%" />
-  <img src="/https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png" width="50%" /> 
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png" width="49%" />
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png" width="49%" /> 
 </p>
 
 [![Usage](https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png)]()
