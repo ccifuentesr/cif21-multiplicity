@@ -29,8 +29,10 @@
 
 ## Results
 
-[![Usage](https://github.com/ccifuentesr/cif21-multiplicity/blob/master/cif02_MG_GJ.png)]()
-
+[![Usage](https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png)]()
+[![Usage](https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png)]()
+[![Usage](https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_Ug_M.png)]()
+[![Usage](https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_MG_GJ.png)]()
 
 ---
 
