@@ -29,7 +29,7 @@
 
 ## Results
 
-[![Usage](https://github.com/ccifuentesr/)]()
+[![Usage](https://github.com/ccifuentesr/cif21-multiplicity/blob/master/cif02_MG_GJ.png)]()
 
 
 ---
