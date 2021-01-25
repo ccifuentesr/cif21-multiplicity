@@ -12,6 +12,7 @@
 ## Table of Contents
 
 - [Summary](#summary)
+- [Results](#results)
 - [Parameters](#parameters)
 - [References](#references)
 - [Installation](#installation)
@@ -31,14 +32,14 @@
 
 <p float="center">
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png" width="49%" />
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_Ug_M.png" width="49%" />
-_Left_: <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio against proper motion position angle difference. _Right_: Binding energy against total mass.
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png" width="49%" /> 
+Left: <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio against proper motion position angle difference. Right: Distances comparison between primary and additional components. 
 </p>
 <p float="center">
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png" width="49%" /> 
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_Ug_M.png" width="49%" />
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_MG_GJ.png" width="49%" /> 
+Left: Binding energy against total mass. Right: Absolute magnitude <img src="https://render.githubusercontent.com/render/math?math=M_G"> against <img src="https://render.githubusercontent.com/render/math?math=G-J"> colour diagram.
 </p>
-*Left*: Distances comparison between primary and additional components. *Right*: Absolute magnitude <img src="https://render.githubusercontent.com/render/math?math=M_G"> against <img src="https://render.githubusercontent.com/render/math?math=G-J"> colour diagram.
 
 ---
 
@@ -60,7 +61,7 @@ The following parameters are used to discriminate between physical and visual pa
 
 | Parameter | Unit | Formula | Annotations | 
 | --- | --- | --- | --- | 
-| <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio | - |  <img src="https://render.githubusercontent.com/render/math?math=(\mu {\rm ratio})^2 = \frac{(\mu_\alpha \cos{\delta}_A - \mu_\alpha \cos{\delta}_B)^2 %2B (\mu_\delta_A - \mu_\delta_B)^2}{(\mu_\alpha \cos{\delta})^2 %2B (\mu_\delta_A)^2} "> | |
+| <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio | - |  <img src="https://render.githubusercontent.com/render/math?math=(\mu {\rmratio})^2 = \frac{(\mu_\alpha \cos{\delta}_A - \mu_\alpha \cos{\delta}_B)^2 %2B (\mu_\delta_A - \mu_\delta_B)^2}{(\mu_\alpha \cos{\delta})^2 %2B (\mu_\delta_A)^2} "> | |
 | Proper motion position angle difference (PA) | deg |  <img src="https://render.githubusercontent.com/render/math?math=\Delta PA = \lvert PA_A-PA_B \rvert"> | <img src="https://render.githubusercontent.com/render/math?math=PA_i"> is the angle between <img src="https://render.githubusercontent.com/render/math?math=\mu_\alpha \cos{\delta}_i"> and <img src="https://render.githubusercontent.com/render/math?math=\mu_{\delta,i}">.|
 | <img src="https://render.githubusercontent.com/render/math?math=\Delta d"> | - | <img src="https://render.githubusercontent.com/render/math?math=\Delta d = \lvert d_A-d_B \rvert/d_A"> | |
 
