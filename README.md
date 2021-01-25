@@ -45,7 +45,7 @@ Left: Binding energy against total mass. Right: Absolute magnitude <img src="htt
 
 ## Parameters
 
-The following parameters are computed in this work.
+The following parameters are computed in this work. The subindex <img src="https://render.githubusercontent.com/render/math?math=B"> designates any other component different than the primary (i.e. B, C, D).
 
 | Parameter | Unit | Formula | Annotations | 
 | --- | --- | --- | --- | 
@@ -57,11 +57,11 @@ The following parameters are computed in this work.
 
 ### Criteria for physical parity
 
-The following parameters are used to discriminate between physical and visual pairs.
+The following parameters are used to discriminate between physical and visual pairs. 
 
 | Parameter | Unit | Formula | Annotations | 
 | --- | --- | --- | --- | 
-| <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio | - |  <img src="https://render.githubusercontent.com/render/math?math=(\mu {\rmratio})^2 = \frac{(\mu_\alpha \cos{\delta}_A - \mu_\alpha \cos{\delta}_B)^2 %2B (\mu_\delta_A - \mu_\delta_B)^2}{(\mu_\alpha \cos{\delta})^2 %2B (\mu_\delta_A)^2} "> | |
+| <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio | - |  <img src="https://render.githubusercontent.com/render/math?math=(\mu {\ratio})^2 = \frac{(\mu_\alpha \cos{\delta}_A - \mu_\alpha \cos{\delta}_B)^2 %2B (\mu_\delta_A - \mu_\delta_B)^2}{(\mu_\alpha \cos{\delta})^2 %2B (\mu_\delta_A)^2} "> | |
 | Proper motion position angle difference (PA) | deg |  <img src="https://render.githubusercontent.com/render/math?math=\Delta PA = \lvert PA_A-PA_B \rvert"> | <img src="https://render.githubusercontent.com/render/math?math=PA_i"> is the angle between <img src="https://render.githubusercontent.com/render/math?math=\mu_\alpha \cos{\delta}_i"> and <img src="https://render.githubusercontent.com/render/math?math=\mu_{\delta,i}">.|
 | <img src="https://render.githubusercontent.com/render/math?math=\Delta d"> | - | <img src="https://render.githubusercontent.com/render/math?math=\Delta d = \lvert d_A-d_B \rvert/d_A"> | |
 
