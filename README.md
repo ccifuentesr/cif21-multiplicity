@@ -32,13 +32,13 @@
 <p float="center">
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png" width="49%" />
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_Ug_M.png" width="49%" />
-Left: ... Right: ...
+*Left*: <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio against proper motion position angle difference. *Right*: Binding energy against total mass.
 </p>
 <p float="center">
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png" width="49%" /> 
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_MG_GJ.png" width="49%" /> 
 </p>
-Left: ... Right: ...
+*Left*: Distances comparison between primary and additional components. *Right*: Absolute magnitude <img src="https://render.githubusercontent.com/render/math?math=M_G"> against <img src="https://render.githubusercontent.com/render/math?math=G-J"> colour diagram.
 
 ---
 
