@@ -229,11 +229,18 @@ The total size is ZZ MB.
 
 All files are named `cif21.xxx_yyy_zzz.py`, where `xxx` defines the kind of output that it produces, `yyy` gives additional information about the output, and `zzz` enumerates the main variables involved. For example, the script `cif20.plot_literature_Mabs_SpT.py` produces an absolute magnitude vs. spectral type plot, and compares the values with those of the literature. The complete list of files and their description can be found below sorted by output, in alphabetical order.
 
-| File | Description | Input<sup id="a1">[1](#f1)</sup>| Output| 
+| File | Description | Input | Output| 
 | --- | --- | --- | --- | 
-| Xxx.py | ... | ... | ... |
+| cif02.charts.py | Preliminar LaTeX chart for describing multiple systems | Main table | A .tex file for each star |
+| cif02.dphot.py | Photometric distance formulas (Table 5 in <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>) | G, r, J and errors | Two photometric distances estimated from G-J and r-J |
+| cif02.MR.py | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweizter et al. 2019</a> | Lbol, Teff and errors | Masses, radii and errors<sup id="a1">[1](#f1)</sup> |
+| cif02.plots.py | Plots the figures in section [Results](#results) | Main table | Four† plots in .png format|
+| .py | Description | Input | Output|
+| .py | Description | Input | Output|
+| .py | Description | Input | Output|
+| .py | Description | Input | Output|
 
-1. <small id="f1"> ... </small> [↩](#a1) 
+1. <small id="f1"> The validity of the relation in Schweitzer is valid in the range 0.1 < Mass/Msol < 0.5. < =.5 </small> [↩](#a1) 
 
 **Notes:** 
 - If necessary.
