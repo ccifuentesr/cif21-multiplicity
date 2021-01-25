@@ -32,7 +32,7 @@
 <p float="center">
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png" width="49%" />
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_Ug_M.png" width="49%" />
-*Left*: <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio against proper motion position angle difference. *Right*: Binding energy against total mass.
+_Left_: <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio against proper motion position angle difference. _Right_: Binding energy against total mass.
 </p>
 <p float="center">
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png" width="49%" /> 
@@ -52,7 +52,7 @@ The following parameters are computed in this work.
 | Physical separation  | au | <img src="https://render.githubusercontent.com/render/math?math=s = \rho d"> | |
 | Apparent separation (e.g. A and B)  | arcsec | <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \times \sqrt{(\alpha_A-\alpha_B)^2 %2B (\delta_A-\delta_B)^2}"> | |
 | Total proper motion | km s-1 | <img src="https://render.githubusercontent.com/render/math?math=\mu = \sqrt{\mu_\alpha \cos{\delta}^2 %2B \mu_\delta^2}"> | |
-| Binding energy | J |  <img src="https://render.githubusercontent.com/render/math?math=U_g = -M_A M_B/r"> | We approximate <img src="https://render.githubusercontent.com/render/math?math=r \sim s">. |
+| Binding energy | J |  <img src="https://render.githubusercontent.com/render/math?math=U_g = -M_A M_B/r"> | We approximate <img src="https://render.githubusercontent.com/render/math?math=r \sim s">, i.e. <img src="https://render.githubusercontent.com/render/math?math=-U_g^* = M_A M_B/s"> |
 
 ### Criteria for physical parity
 
