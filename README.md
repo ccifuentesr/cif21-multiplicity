@@ -74,7 +74,7 @@ The following parameters are used to discriminate between physical and visual pa
 
 ### Bolometric luminosities
 
-All luminosities were computed using the Virtual Observatory SED Analyzer (VOSA), using the BT-Settl CIFIST grid of models.
+All luminosities were computed using the Virtual Observatory SED Analyzer (<a href="http://svo2.cab.inta-csic.es/theory/vosa/" target="_blank">VOSA</a>), using the BT-Settl CIFIST grid of models. Close binaries (<img src="https://render.githubusercontent.com/render/math?math=\rho"> < 5 arcsec) are dismissed in this calculation.
 
 ### Masses
 
