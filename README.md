@@ -256,11 +256,9 @@ All files are named `cif21.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 | cif02.charts.py | Preliminar LaTeX chart for describing multiple systems | Main table | A .tex file for each star |
 | cif02.dphot.py | Photometric distance formulas (Table 5 in <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>) | G, r, J and errors | Two photometric distances estimated from G-J and r-J |
 | cif02.MR.py | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweizter et al. 2019</a> | Lbol, Teff and errors | Masses, radii and errors<sup id="a1">[1](#f1)</sup> |
-| cif02.plots.py | Plots the figures shown in section [Results](#results) | Main table | Four† plots in .png format|
-| cif02.params.py | Computes the parameters defined in section [Parameters](#parameters) | Input | Output|
-| .py | Description | Input | Output|
-| .py | Description | Input | Output|
-| .py | Description | Input | Output|
+| cif02.plots.py | Plots the figures shown in section [Results](#results) | Main table | Four plots in .png format|
+| cif02.params.py | Computes parameters to asses multiplicity of a system | Main table | See section [Parameters](#parameters) |
+| cif02.rho_epochs.py | Obtains the separation as a function of time spanning several epochs. | Input | Output|
 
 1. <small id="f1"> The validity of the relation in Schweitzer is valid in the range 0.1 < Mass/Msol < 0.5. < =.5 </small> [↩](#a1) 
 
