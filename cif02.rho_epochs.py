@@ -14,14 +14,13 @@ from matplotlib.ticker import MaxNLocator
 rc('font', **{'family': 'serif', 'serif': ['DejaVu Serif']})
 rc('text', usetex=False)
 plt.rcParams['mathtext.fontset'] = 'dejavuserif'
-plt.rcParams.update({'errorbar.capsize': 4})
 
 # Data
 
 filename = 'KO6AB'
 
-df = pd.read_csv('Data/'+filename+'.csv')
-# df = df.drop([df.index[6]]) # In case of needing to drop a value
+df_ = pd.read_csv('Astrometry/'+filename+'.csv')
+df = df_.loc[df_['INCLUDE'] == True]
 
 # rho & theta
 # As defined by J. Smolinski and W. Osborn (2006RMxAC..25...65S)
@@ -43,10 +42,13 @@ Epoch = 2015.0
 JD = (Epoch - 2000)*365.25 + 2451545.0
 MJD = JD - 2400000.5
 
+# Plotting
+
 # Variables
 
 x = df['JD']
 y = rho
+yerr = df['RHO_ERROR']
 
 # Fit
 
@@ -62,7 +64,7 @@ ylabel = r'$\rho$ [arcsec]'
 # Sizes
 
 figsize = (12, 10)
-pointsize = 60
+pointsize = 8
 tickssize = 22
 labelsize = 22
 legendsize = 18
@@ -75,7 +77,8 @@ fig, ax = plt.subplots(figsize=figsize)
 
 # Plots
 
-ax.scatter(x, y, c='r', s=pointsize, marker='o')
+plt.errorbar(x, y, yerr=yerr, c='b', ms=pointsize,
+             capsize=6, marker='o', linestyle='none')
 ax.plot(t, p(t), 'r-')
 
 # Axes: range & scale
