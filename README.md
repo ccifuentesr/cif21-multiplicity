@@ -62,6 +62,13 @@ Left: <img src="https://render.githubusercontent.com/render/math?math=\mu"> rati
 Left: Binding energy against total mass. Right: Absolute magnitude <img src="https://render.githubusercontent.com/render/math?math=M_G"> against <img src="https://render.githubusercontent.com/render/math?math=G-J"> colour diagram. HD 134494 is a star that we re-classify as sub-giant, PYC J07311+4556 is a young candidate to the AB Doradus group, and LSPM J1633+0311S is a white dwarf.
 </p>
 
+### The case of Königstuhl 6 AB
+
+<p float="center">
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/KO6AB.png" width="80%" />
+<img src="https://render.githubusercontent.com/render/math?math=\rho"> as a function of time. The 10 epochs of observation span 62 years (from March 16, 1953 to August 5, 2015).
+</p>
+
 ---
 
 ## Parameters
