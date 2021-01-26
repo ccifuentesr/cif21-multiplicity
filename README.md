@@ -68,7 +68,8 @@ Left: Binding energy against total mass. Right: Absolute magnitude <img src="htt
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/KO6AB.png" width="80%" />
 </p>
 
-<img src="https://render.githubusercontent.com/render/math?math=\rho"> as a function of time. The 10 epochs of observation span 62 years (from March 16, 1953 to August 5, 2015).
+<img src="https://render.githubusercontent.com/render/math?math=\rho"> as a function of time. The 10 epochs of observation span 62 years: from March 16, 1953 to August 5, 2015).
+
 ---
 
 ## Parameters
