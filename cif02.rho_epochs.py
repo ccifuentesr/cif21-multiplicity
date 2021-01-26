@@ -101,8 +101,10 @@ ax.tick_params('both', length=10, width=1, which='major')
 ax.tick_params('both', length=5, width=1, which='minor')
 ax.minorticks_on()
 ax.xaxis.set_tick_params(which='minor', bottom=True, top=True)
-ax.xaxis.set_major_formatter(ScalarFormatter())
+ax.xaxis.set_major_formatter(ScalarFormatter(useMathText=True))
 ax.yaxis.set_major_formatter(ScalarFormatter())
+ax.ticklabel_format(style='sci', axis='x', scilimits=(0, 0))
+ax.xaxis.get_offset_text().set_fontsize(labelsize)
 
 # Show & Save
 
