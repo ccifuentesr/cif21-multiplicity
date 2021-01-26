@@ -30,11 +30,12 @@ For instance, the masses of the components of these systems can be determined di
 Then, radii and densities can be estimated from the masses, and mass-luminosity relations can be drawn from further observation.
 
 Stars that are close together in the sky can be revealed as visual or as physical binaries.
-By analysing their distances, the relative movement and even their composition, we can determine if the pair is bounded by gravity.
-In this case, the two stars follow an elliptical orbit around their common barycenter, and we refer to it as a binary system.
+By analysing their distances, the relative movement and even their composition, we can determine if the pair is physically linked.
+In this case the two objects, bounded by gravity, follow elliptical orbits around their common barycenter, and we refer to it as a binary system.
 
 Very often, especially when the stars are distant, they appear as a single point of light to the unaided eye, but then are revealed as multiple by other means.
-Indirect techniques, such as spectroscopic, astrometric or photometric investigations can reveal systems of this kind.
+Indirect techniques, such as spectroscopy, astrometry or photometry, can reveal systems of this kind.
+For example, the so called spectroscopic binaries are visible under a detailed study of signatures in their spectra, via the Doppler effect.
 
 Systems of two or more stars are called multiple star systems.
 When dinamically stable, they are organised hierarchically and consist of nested orbits that can be treated individually as a Two-body problems. 
@@ -43,6 +44,8 @@ Most multiple star systems are found to be triple.
 On the other hand, trapezia systems are usually very young and unstable.
 They interact strongly and chaotically in an N-body problem manner. 
 The competition for stable orbits is resolved with the fragmentation into multiple hierarchical systems.
+
+This work presents **22** multiple star systems, all containing M dwarfs (see <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>), with different hierarchical configurations: from 
 
 ---
 
@@ -297,8 +300,8 @@ Row-by-row description of `Xxx.csv`.
 |		|	logg	|	-	|	Surface gravity from VOSA	|	BT-Settl CIFIST grid of synthetic spectra uncertainties are 0.5 dex for logg.
 |		|	Lbol	|	solLum	|	Bolometric luminosity from VOSA 	|	BT-Settl CIFIST grid of synthetic spectra metallicity is fixed to solar.
 |		|	Lberr	|	solLum	|	Bolometric luminosity error from VOSA 	|	BT-Settl CIFIST grid of synthetic spectra metallicity is fixed to solar.
-|		|	Mass_Lbol	|	solMass	|	Stellar mass computed from Lbol	|	Using the Mass vs. Lbol relation from Pecaut et al. 2013 (hotter than F7 V) and Cifuentes et al. 2020 (cooler than K5 V).
-|		|	Mass_MG	|	solMass	|	Stellar mass computed from MG	|	Using the Mass vs. MG relation from Pecaut et al. 2013 (hotter than F7 V) and Cifuentes et al. 2020 (cooler than K5 V).
+|		|	Mass_Lbol	|	solMass	|	Stellar mass computed from Lbol	|	Using the Mass vs. Lbol relation from <a href="https://ui.adsabs.harvard.edu/abs/2013ApJS..208....9P/abstract" target="_blank">Pecaut et al. 2013</a> (hotter than F7 V) and <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a> (cooler than K5 V).
+|		|	Mass_MG	|	solMass	|	Stellar mass computed from MG	|	Using the Mass vs. MG relation from <a href="https://ui.adsabs.harvard.edu/abs/2013ApJS..208....9P/abstract" target="_blank">Pecaut et al. 2013</a> (hotter than F7 V) and <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a> (cooler than K5 V).
 |		|	Mass_A	|	solMass	|	Stellar mass adopted for the A component	|	
 |		|	Mass_B	|	solMass	|	Stellar mass adopted for the B component	|	
 |		|	Mass_C	|	solMass	|	Stellar mass adopted for the C component	|	
