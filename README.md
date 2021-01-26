@@ -45,7 +45,7 @@ On the other hand, trapezia systems are usually very young and unstable.
 They interact strongly and chaotically in an N-body problem manner. 
 The competition for stable orbits is resolved with the fragmentation into multiple hierarchical systems.
 
-This work presents **22** multiple star systems, all containing M dwarfs (see <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>), with different hierarchical configurations: from 
+This work presents **22** multiple star systems, all containing M dwarfs (see <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>), with different hierarchical configurations, including **A** double, **B** triple, **C** quadruple, and **D** quintuple systems.
 
 ---
 
