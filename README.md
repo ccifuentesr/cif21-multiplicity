@@ -54,7 +54,7 @@ This work presents **22** multiple star systems, all containing M dwarfs (see <a
 <p float="center">
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png" width="49%" />
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png" width="49%" /> 
-Left: <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio against proper motion position angle difference. Right: Distances comparison between primary and additional components. Crosses denote sources that do not satisfy the criteria for physical parity as described in [Parameters](#parameters).
+Left: <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio against proper motion position angle difference. Right: Distances comparison between primary and additional components. Crosses denote sources that do not satisfy the criteria for physical parity as described in section [Parameters](#parameters).
 </p>
 <p float="center">
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_Ug_M.png" width="49%" />
@@ -257,7 +257,7 @@ All files are named `cif21.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 | cif02.dphot.py | Photometric distance formulas (Table 5 in <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>) | G, r, J and errors | Two photometric distances estimated from G-J and r-J |
 | cif02.MR.py | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweizter et al. 2019</a> | Lbol, Teff and errors | Masses, radii and errors<sup id="a1">[1](#f1)</sup> |
 | cif02.plots.py | Plots the figures shown in section [Results](#results) | Main table | Four† plots in .png format|
-| cif02.params.py | Conputes the parameters defined in section [Parameters](#parameters) | Input | Output|
+| cif02.params.py | Computes the parameters defined in section [Parameters](#parameters) | Input | Output|
 | .py | Description | Input | Output|
 | .py | Description | Input | Output|
 | .py | Description | Input | Output|
