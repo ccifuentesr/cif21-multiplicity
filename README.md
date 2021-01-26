@@ -26,7 +26,8 @@
 
 > The strength of the gravitational atraction between two bodies is proportional to the amount of mass, and decays with the distance squared. This, of course, means that every element of mass in the Universe is in constant interaction with every other element of mass. 
 
-Binary stars consist of systems of two stars orbiting around their common barycenter. Systems of two or more stars are called multiple star systems. These systems, especially when more distant, often appear to the unaided eye as a single point of light, and are then revealed as multiple by other means.
+Binary stars consist of systems of two stars orbiting around their common barycenter.
+Systems of two or more stars are called multiple star systems. These systems, especially when more distant, often appear to the unaided eye as a single point of light, and are then revealed as multiple by other means.
 
 The term double star is often used synonymously with binary star; however, double star can also mean optical double star. Optical doubles are so called because the two stars appear close together in the sky as seen from the Earth; they are almost on the same line of sight. Nevertheless, their "doubleness" depends only on this optical effect; the stars themselves are distant from one another and share no physical connection. A double star can be revealed as optical by means of differences in their parallax measurements, proper motions, or radial velocities. Most known double stars have not been studied adequately to determine whether they are optical doubles or doubles physically bound through gravitation into a multiple star system.
 
