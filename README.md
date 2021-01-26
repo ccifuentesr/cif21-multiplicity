@@ -143,7 +143,7 @@ The following are the bibliographic references in alphabetical order for the dat
 | Cab10 | <a href="#">2010A&A...520A..91C</a> |
 | Can93 | <a href="#">1993yCat.3135....0C</a> |
 | Cab07b | <a href="#">2007ApJ...667..520C</a> |
-| Cif20 | <a href="#">2020A&A...642A.115C</a> (*) |
+| Cif20 | <a href="#">2020A&A...642A.115C</a> |
 | Clo02 | <a href="#">2002ApJ...567L..53C</a> |
 | Cru03 | <a href="#">2003AJ....126.2421C</a> |
 | Dhi02 | <a href="#">2010AJ....139.2566D</a> |
@@ -159,13 +159,11 @@ The following are the bibliographic references in alphabetical order for the dat
 | McC99 | <a href="#">1999ApJS..121....1M</a> |
 | Mon18 | <a href="#">2018MNRAS.479.1332M</a> |
 | New14 | <a href="#">2014AJ....147...20N</a> |
-| Pec13 | <a href="#">2013ApJS..208....9P</a> (*) |
+| Pec13 | <a href="#">2013ApJS..208....9P</a> |
 | Rei08 | <a href="#">2008AJ....136.1290R</a> |
 | Ria06 | <a href="#">2006AJ....132..866R</a> |
 | Ste86 | <a href="#">1986AJ.....92..139S</a> |
 | Tsv08 | <a href="#">2008AstL...34...17T</a> |
-
-(*) Using the models.
 
 ### Discoverer
 
@@ -194,7 +192,7 @@ The following are the bibliographic references in alphabetical order for the dat
 | Lep13 | <a href="#">2013AJ....145..102L</a> |
 | Loc13 | <a href="#">See WDS |
 | Lop11 | <a href="#">2011JDSO....7...40L</a> |
-| Ric96 | See WDS |
+| RicXX | Review in WDS |
 | Sou24 | <a href="#">1824RSPT..114R...1H</a> |
 | Tak20 | <a href="#">2020arXiv201004024T</a> |
 | Tok79 | <a href="#">1979SvAL....5..229T</a> |
