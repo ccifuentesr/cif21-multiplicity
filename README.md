@@ -68,7 +68,7 @@ Left: Binding energy against total mass. Right: Absolute magnitude <img src="htt
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/KO6AB.png" width="80%" />
 </p>
 
-<img src="https://render.githubusercontent.com/render/math?math=\rho"> as a function of time. The 10 epochs of observation span 62 years: from March 16, 1953 to August 5, 2015).
+<img src="https://render.githubusercontent.com/render/math?math=\rho"> as a function of time. The separation of the components A and B of Königstuhl 6 AB increases in 0.248 arcsec in the 10 epochs of observation spanning 62 years (from March 16, 1953 to August 5, 2015). This translates into an annual change of 0.004 arcsec per year.
 
 ---
 
