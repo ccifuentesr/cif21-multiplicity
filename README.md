@@ -53,7 +53,7 @@ The following parameters are computed in this work. The subindex <img src="https
 | Physical separation  | au | <img src="https://render.githubusercontent.com/render/math?math=s = \rho d"> | |
 | Apparent separation (e.g. A and B)  | arcsec | <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \times \sqrt{(\alpha_A-\alpha_B)^2 %2B (\delta_A-\delta_B)^2}"> | |
 | Total proper motion | km s-1 | <img src="https://render.githubusercontent.com/render/math?math=\mu = \sqrt{\mu_\alpha \cos{\delta}^2 %2B \mu_\delta^2}"> | |
-| Orbital period | a |  <img src="https://render.githubusercontent.com/render/math?math=P_{\orb} = 2\pi \sqrt{\frac{a^3}{\mu}}"> | <img src="https://render.githubusercontent.com/render/math?math=a \sim s}"> and <img src="https://render.githubusercontent.com/render/math?math=\mu = GM}"> is the standard gravitational parameter, where <img src="https://render.githubusercontent.com/render/math?math=M}"> is the mass of the more massive body.  |
+| Orbital period | a |  <img src="https://render.githubusercontent.com/render/math?math=P_{\orb} = 2\pi \sqrt{\frac{a^3}{\mu}}"> | <img src="https://render.githubusercontent.com/render/math?math=a \sim s"> and <img src="https://render.githubusercontent.com/render/math?math=\mu = GM"> is the standard gravitational parameter, where <img src="https://render.githubusercontent.com/render/math?math=M"> is the mass of the more massive body.  |
 | Binding energy | J |  <img src="https://render.githubusercontent.com/render/math?math=U_g = -M_A M_B/r"> | We approximate <img src="https://render.githubusercontent.com/render/math?math=r \sim s">, i.e. <img src="https://render.githubusercontent.com/render/math?math=-U_g^* = M_A M_B/s"> |
 
 ### Criteria for physical parity
