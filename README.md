@@ -54,7 +54,7 @@ This work presents **22** multiple star systems, all containing M dwarfs (see <a
 <p float="center">
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png" width="49%" />
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png" width="49%" /> 
-Left: <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio against proper motion position angle difference. Right: Distances comparison between primary and additional components. Crosses denote sources that do not satisfy the criteria for physical parity (see [Parameters](#parameters)).
+Left: <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio against proper motion position angle difference. Right: Distances comparison between primary and additional components. Crosses denote sources that do not satisfy the criteria for physical parity as described in [Parameters](#parameters).
 </p>
 <p float="center">
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_Ug_M.png" width="49%" />
