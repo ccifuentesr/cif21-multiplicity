@@ -9,7 +9,7 @@ Two can be as bad as one, it’s the loneliest number since the number one
 'Yes', it's the saddest experience you'll ever know   
 ’Cause one is the loneliest number that you'll ever do_  
 
-<a href="https://open.spotify.com/track/7Ci3Yc9H2YliGFc1czyqI1?si=lw_iIxXIRfq0ZNufrc06AQ" target="_blank">One</a>, Harry Nilsson, _Aerial Ballet_ (1968)
+<a href="https://www.youtube.com/watch?v=DYzY7-V5vxY" target="_blank">One</a>, Harry Nilsson, _Aerial Ballet_ (1968)
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
