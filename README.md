@@ -11,8 +11,7 @@ Two can be as bad as one, it’s the loneliest number since the number one
 'Yes', it's the saddest experience you'll ever know   
 ’Cause one is the loneliest number that you'll ever do_  
 
-<a href="https://www.youtube.com/watch?v=DYzY7-V5vxY" target="_blank">One</a>  
-Harry Nilsson, _Aerial Ballet_ (1968)
+<a href="https://www.youtube.com/watch?v=DYzY7-V5vxY" target="_blank">One</a>, Harry Nilsson, _Aerial Ballet_ (1968)
 
 </p>
 
