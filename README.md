@@ -3,13 +3,16 @@
   
 > This repository contains the code written for the work <a href="#" target="_blank">Cifuentes et al. 2021</a>. Additional science is included for completeness.
 
+<div style="text-align: right">
 _One is the loneliest number that you'll ever do  
 Two can be as bad as one, it’s the loneliest number since the number one    
 'No' is the saddest experience you'll ever know  
 'Yes', it's the saddest experience you'll ever know   
 ’Cause one is the loneliest number that you'll ever do_  
 
-<a href="https://www.youtube.com/watch?v=DYzY7-V5vxY" target="_blank">One</a>, Harry Nilsson, _Aerial Ballet_ (1968)
+<a href="https://www.youtube.com/watch?v=DYzY7-V5vxY" target="_blank">One</a>  
+Harry Nilsson, _Aerial Ballet_ (1968)
+</div>
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
