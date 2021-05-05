@@ -1,13 +1,8 @@
-# One is the loneliest number: multiplicity in cool dwarfs
+# One is the loneliest number<sup id="b">[★](#g)</sup>: multiplicity in cool dwarfs
 ## C. Cifuentes<sup id="a1">[1](#f1)</sup>, J. A. Caballero<sup id="a1">[1](#f1)</sup> and S. Agustí<sup id="a2">[2](#f2)</sup>
 
 1. <small id="f1">Centro de Astrobiología (CSIC-INTA), Madrid, Spain</small>
 2. <small id="f2">Lyceè Français, Madrid, Spain</small>
-
-_One is the loneliest number that you'll ever do  
-Two can be as bad as one  
-It’s the loneliest number since the number one_  
-<a href="https://www.youtube.com/watch?v=DYzY7-V5vxY" target="_blank">One</a>, Harry Nilsson, _Aerial Ballet_ (1968)
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
@@ -434,7 +429,14 @@ Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.
 - <a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">Style Guide for Python Code (PEP 8)</a>
 - <a href="https://carmenes.caha.es" target="_blank">CARMENES Website</a>
 
-### One
+### <small id="b">★</small> One
+ <small </small>
+
+_One is the loneliest number that you'll ever do  
+Two can be as bad as one  
+It’s the loneliest number since the number one_  
+
+<a href="https://www.youtube.com/watch?v=DYzY7-V5vxY" target="_blank">One</a>, Harry Nilsson, _Aerial Ballet_ (1968)
 
 <a href="https://en.wikipedia.org/wiki/One_(Harry_Nilsson_song)" target="_blank">One</a> is a song written and recorded by Harry Nilsson and made famous by Three Dog Night. It is known for its opening line "_One is the loneliest number that you'll ever do_". Nilsson wrote the song after calling someone and getting a busy signal. He stayed on the line listening to the "beep, beep, beep, beep..." tone, writing the song. The busy signal became the opening notes.
 
