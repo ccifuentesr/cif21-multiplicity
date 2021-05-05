@@ -431,7 +431,7 @@ Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.
 - <a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">Style Guide for Python Code (PEP 8)</a>
 - <a href="https://carmenes.caha.es" target="_blank">CARMENES Website</a>
 
-### <small id="one">★</small>One
+### <sup>⋆</sup>One
 
 _One is the loneliest number that you'll ever do  
 Two can be as bad as one  
@@ -441,5 +441,4 @@ It’s the loneliest number since the number one_
 
 
 > One is a song written and recorded by Harry Nilsson and made famous by Three Dog Night. It is known for its opening line "_One is the loneliest number that you'll ever do_". Nilsson wrote the song after calling someone and getting a busy signal. He stayed on the line listening to the "beep, beep, beep, beep..." tone, writing the song. The busy signal became the opening notes.
-> Three Dog Night played <a href="https://open.spotify.com/track/0TGKBG5wK1ZGSACf6uso3H?si=Lsc8MKNcSOiEyZv3XA961Q" target="_blank">recording</a> in the key of F minor, and it was released as the second single from Three Dog Night's eponymous first album. It became their first of seven gold records over the next five years and reached number five on the U.S. Billboard Hot 100 in 1969 and number four in Canada.
-> From <a href="https://en.wikipedia.org/wiki/One_(Harry_Nilsson_song)" target="_blank">Wikipedia</a>.
+> Three Dog Night played <a href="https://open.spotify.com/track/0TGKBG5wK1ZGSACf6uso3H?si=Lsc8MKNcSOiEyZv3XA961Q" target="_blank">recording</a> in the key of F minor, and it was released as the second single from Three Dog Night's eponymous first album. It became their first of seven gold records over the next five years and reached number five on the U.S. Billboard Hot 100 in 1969 and number four in Canada. (From <a href="https://en.wikipedia.org/wiki/One_(Harry_Nilsson_song)" target="_blank">Wikipedia</a>).
