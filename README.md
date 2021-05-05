@@ -4,10 +4,6 @@
 1. <small id="f1">Centro de Astrobiología (CSIC-INTA), Madrid, Spain</small>
 2. <small id="f2">Lyceè Français, Madrid, Spain</small>
 
-_One is the loneliest number that you'll ever do  
-Two can be as bad as one  
-It’s the loneliest number since the number one_  
-
 <a href="https://www.youtube.com/watch?v=DYzY7-V5vxY" target="_blank">One</a>, Harry Nilsson, _Aerial Ballet_ (1968)
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
@@ -17,6 +13,12 @@ It’s the loneliest number since the number one_
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/ccifuentesr)
 
 > This repository contains the data, the code and complementary science for the publication <a href="#" target="_blank">Cifuentes et al. 2021</a> (submitted to RNAAS).
+
+---
+_One is the loneliest number that you'll ever do  
+Two can be as bad as one  
+It’s the loneliest number since the number one_  
+---
 
 ## Table of Contents
 
