@@ -1,5 +1,7 @@
 # One is the loneliest number: multiplicity in cool dwarfs
-## C. Cifuentes, J. A. Caballero and S. Agustí
+## C. Cifuentes<sup id="a1">[1](#f1)</sup>, J. A. Caballero and S. Agustí
+
+1. <small id="f1"> Centro de Astrobiología </small> [↩](#a1) 
 
 _One is the loneliest number that you'll ever do  
 Two can be as bad as one  
@@ -13,7 +15,7 @@ It’s the loneliest number since the number one_
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/ccifuentesr)
 
-> This repository contains the data, the code and complementary science for the publication <a href="#" target="_blank">Cifuentes et al. 2021</a>. 
+> This repository contains the data, the code and complementary science for the publication <a href="#" target="_blank">Cifuentes et al. 2021</a> (submitted to RNAAS).
 
 ## Table of Contents
 
@@ -52,7 +54,7 @@ On the other hand, trapezia systems are usually very young and unstable.
 They interact strongly and chaotically in an N-body problem manner. 
 The competition for stable orbits is resolved with the fragmentation into multiple hierarchical systems.
 
-This work presents **22** multiple star systems, all containing M dwarfs (see <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>), with different hierarchical configurations, including **A** double, **B** triple, **C** quadruple, and **D** quintuple systems.
+This work presents **22** multiple star systems, all containing M dwarfs, with different hierarchical configurations, including **12** double, **5** triple, **4** quadruple, and **1** quintuple systems.
 
 ---
 
@@ -64,7 +66,7 @@ The following parameters are computed in this work. The subindex <img src="https
 | --- | --- | --- | --- | 
 | Distance  | pc | <img src="https://render.githubusercontent.com/render/math?math=d = 1000/\varpi"> | <img src="https://render.githubusercontent.com/render/math?math=\varpi"> is the trigonometric parallax. |
 | Physical separation  | au | <img src="https://render.githubusercontent.com/render/math?math=s = \rho d"> | |
-| Apparent separation (e.g. A and B)  | arcsec | <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \times \sqrt{(\alpha_A-\alpha_B)^2 %2B (\delta_A-\delta_B)^2}"> | |
+| Apparent separation (e.g. A and B)  | arcsec | <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \sqrt{(\alpha_A-\alpha_B)^2 %2B (\delta_A-\delta_B)^2}"> | |
 | Total proper motion | km s-1 | <img src="https://render.githubusercontent.com/render/math?math=\mu = \sqrt{\mu_\alpha \cos{\delta}^2 %2B \mu_\delta^2}"> | |
 | Orbital period | a |  <img src="https://render.githubusercontent.com/render/math?math=P_{\orb} = 2\pi \sqrt{\frac{a^3}{\mu}}"> | <img src="https://render.githubusercontent.com/render/math?math=a \sim s"> and <img src="https://render.githubusercontent.com/render/math?math=\mu = GM"> is the standard gravitational parameter, where <img src="https://render.githubusercontent.com/render/math?math=M"> is the mass of the more massive body.  |
 | Binding energy | J |  <img src="https://render.githubusercontent.com/render/math?math=U_g = -M_A M_B/r"> | We approximate <img src="https://render.githubusercontent.com/render/math?math=r \sim s">, i.e. <img src="https://render.githubusercontent.com/render/math?math=-U_g^* = M_A M_B/s"> |
@@ -80,7 +82,7 @@ The following parameters are used to discriminate between physical and visual pa
 | <img src="https://render.githubusercontent.com/render/math?math=\Delta d"> | - | <img src="https://render.githubusercontent.com/render/math?math=\Delta d = \lvert d_A-d_B \rvert/d_A"> | |
 
 **Notes:** 
-- <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio and <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> defined by <a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.1332M/abstract" target="_blank">Montes et al. 2018</a>.
+- <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio and <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> defined by Mon18.
 - We define physical parity if:
 	- <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio < 0.15.
 	- <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> < 15 deg.
@@ -134,7 +136,7 @@ Each page contains a single system, with the following information:
 
 As a visual aid, values that comply with the criteria for physical binding (see section [Parameters](#parameters)) and good astrometric quality data (i.e. RUWE < 1.4), are displayed in green. In case of poor or not complying, they are displayed in orange or red, respectively.
 
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/charts_example.png" width="75%" />
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/chart_example.png" width="75%" />
 
 ---
 
@@ -155,19 +157,17 @@ All files are named `cif21.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 | --- | --- | --- | --- | 
 | cif02.charts.py | Preliminar LaTeX chart for describing multiple systems | Main table | A .tex file for each star |
 | cif02.dphot.py | Photometric distance formulas (Table 5 in <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>) | G, r, J and errors | Two photometric distances estimated from G-J and r-J |
-| cif02.MR.py | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweizter et al. 2019</a> | Lbol, Teff and errors | Masses, radii and errors<sup id="a1">[1](#f1)</sup> |
+| cif02.MR.py | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweitzer et al. 2019</a> | Lbol, Teff and errors | Masses, radii and errors |
 | cif02.plots.py | Plots the figures shown in section [Results](#results) | Main table | Four plots in .png format|
 | cif02.params.py | Computes parameters to asses multiplicity of a system | Main table | See section [Parameters](#parameters) |
 | cif02.rho_epochs.py | Obtains the separation as a function of time spanning several epochs. | Input | Output|
-
-1. <small id="f1"> The validity of the relation in Schweitzer is valid in the range 0.1 < Mass/Msol < 0.5. < =.5 </small> [↩](#a1) 
 
 **Notes:** 
 - If necessary.
 
 ### The master table
 
-`cif21.multiplicity.csv` contains XXX rows and YYY columns. It is stored in the root directory and can be manipulated separately with tabular data management software such as <a href="http://www.star.bris.ac.uk/~mbt/topcat/" target="_blank">TOPCAT</a>.
+`cif21.multiplicity.csv` contains **53** rows and **108** columns. It is stored in the root directory and can be manipulated separately with tabular data management software such as <a href="http://www.star.bris.ac.uk/~mbt/topcat/" target="_blank">TOPCAT</a>.
 
 **Version history**
 
