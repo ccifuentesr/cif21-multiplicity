@@ -1,5 +1,5 @@
-# One is the loneliest number<sup id="b">[<small>★</small>](#g)</sup>: multiplicity in cool dwarfs
-## C. Cifuentes<sup id="a1">[1](#f1)</sup>, J. A. Caballero<sup id="a1">[1](#f1)</sup> and S. Agustí<sup id="a2">[2](#f2)</sup>
+# One is the loneliest number<sup id="one">[<small>⋆</small>](#g)</sup>: multiplicity in cool dwarfs
+## C. Cifuentes<sup>[1]</sup>, J. A. Caballero<sup>[1]</sup> and S. Agustí<sup id="a2">[2](#f2)</sup>
 
 1. <small id="f1">Centro de Astrobiología (CSIC-INTA), Madrid, Spain</small>
 2. <small id="f2">Lyceè Français, Madrid, Spain</small>
@@ -437,6 +437,7 @@ It’s the loneliest number since the number one_
 
 <a href="https://www.youtube.com/watch?v=DYzY7-V5vxY" target="_blank">One</a>, Harry Nilsson, _Aerial Ballet_ (1968)
 
-<a href="https://en.wikipedia.org/wiki/One_(Harry_Nilsson_song)" target="_blank">One</a> is a song written and recorded by Harry Nilsson and made famous by Three Dog Night. It is known for its opening line "_One is the loneliest number that you'll ever do_". Nilsson wrote the song after calling someone and getting a busy signal. He stayed on the line listening to the "beep, beep, beep, beep..." tone, writing the song. The busy signal became the opening notes.
 
-Three Dog Night played <a href="https://open.spotify.com/track/0TGKBG5wK1ZGSACf6uso3H?si=Lsc8MKNcSOiEyZv3XA961Q" target="_blank">recording</a> in the key of F minor, and it was released as the second single from Three Dog Night's eponymous first album. It became their first of seven gold records over the next five years and reached number five on the U.S. Billboard Hot 100 in 1969 and number four in Canada.
+> One is a song written and recorded by Harry Nilsson and made famous by Three Dog Night. It is known for its opening line "_One is the loneliest number that you'll ever do_". Nilsson wrote the song after calling someone and getting a busy signal. He stayed on the line listening to the "beep, beep, beep, beep..." tone, writing the song. The busy signal became the opening notes.
+> Three Dog Night played <a href="https://open.spotify.com/track/0TGKBG5wK1ZGSACf6uso3H?si=Lsc8MKNcSOiEyZv3XA961Q" target="_blank">recording</a> in the key of F minor, and it was released as the second single from Three Dog Night's eponymous first album. It became their first of seven gold records over the next five years and reached number five on the U.S. Billboard Hot 100 in 1969 and number four in Canada.
+> From <a href="https://en.wikipedia.org/wiki/One_(Harry_Nilsson_song)" target="_blank">Wikipedia</a>.
