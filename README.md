@@ -1,5 +1,5 @@
-# One is the loneliest number<sup id="one">[<small>⋆</small>](#g)</sup>: multiplicity in cool dwarfs
-## C. Cifuentes<sup>[1]</sup>, J. A. Caballero<sup>[1]</sup> and S. Agustí<sup id="a2">[2](#f2)</sup>
+# One is the loneliest number<sup id="one">[⋆](#g)</sup>: multiplicity in cool dwarfs
+## C. Cifuentes<sup>1</sup>, J. A. Caballero<sup>1</sup> and S. Agustí<sup>2</sup>
 
 1. <small id="f1">Centro de Astrobiología (CSIC-INTA), Madrid, Spain</small>
 2. <small id="f2">Lyceè Français, Madrid, Spain</small>
@@ -133,7 +133,9 @@ Each page contains a single system, with the following information:
 
 As a visual aid, values that comply with the criteria for physical binding (see section [Parameters](#parameters)) and good astrometric quality data (i.e. RUWE < 1.4), are displayed in green. In case of poor or not complying, they are displayed in orange or red, respectively.
 
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/chart_example.png" width="75%" />
+<p float="center">
+ <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/chart_example.png" width="50%" />
+</p>
 
 ---
 
@@ -429,7 +431,7 @@ Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.
 - <a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">Style Guide for Python Code (PEP 8)</a>
 - <a href="https://carmenes.caha.es" target="_blank">CARMENES Website</a>
 
-### <small id="b">★</small>[↩](#b) One
+### <small id="one">★</small>One
 
 _One is the loneliest number that you'll ever do  
 Two can be as bad as one  
