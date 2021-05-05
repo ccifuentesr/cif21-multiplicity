@@ -30,7 +30,7 @@
 
 ## Summary
 
-> Multiple star systems are particularly important in astrophysics.
+Multiple star systems are particularly important in astrophysics.
 Measuring their orbits reveals very relevant information about them, only accessible theoretically otherwise.
 For instance, the masses of the components of these systems can be determined directly, applying fundamental laws of gravity.
 Then, radii and densities can be estimated from the masses, and mass-luminosity relations can be drawn from further observation.
