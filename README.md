@@ -18,11 +18,12 @@ It’s the loneliest number since the number one_
 ## Table of Contents
 
 - [Summary](#summary)
-- [Results](#results)
 - [Parameters](#parameters)
+- [Structure](#structure)
+- [Charts](#charts)
+- [Results](#results)
 - [References](#references)
 - [Installation](#installation)
-- [Structure](#structure)
 - [Support](#support)
 - [Suggested Resources](#resources)
 
@@ -52,29 +53,6 @@ They interact strongly and chaotically in an N-body problem manner.
 The competition for stable orbits is resolved with the fragmentation into multiple hierarchical systems.
 
 This work presents **22** multiple star systems, all containing M dwarfs (see <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>), with different hierarchical configurations, including **A** double, **B** triple, **C** quadruple, and **D** quintuple systems.
-
----
-
-## Results
-
-<p float="center">
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png" width="49%" />
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png" width="49%" /> 
-Left: <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio against proper motion position angle difference. Right: Distances comparison between primary and additional components. Crosses denote sources that do not satisfy the criteria for physical parity as described in this document.
-</p>
-<p float="center">
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_Ug_M.png" width="49%" />
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_MG_GJ.png" width="49%" /> 
-Left: Binding energy against total mass. Right: Absolute magnitude <img src="https://render.githubusercontent.com/render/math?math=M_G"> against <img src="https://render.githubusercontent.com/render/math?math=G-J"> colour diagram. HD 134494 is a star that we re-classify as sub-giant, PYC J07311+4556 is a young candidate to the AB Doradus group, and LSPM J1633+0311S is a white dwarf.
-</p>
-
-### The case of Königstuhl 6 AB
-
-<p float="center">
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/KO6AB.png" width="80%" />
-</p>
-
-<img src="https://render.githubusercontent.com/render/math?math=\rho"> as a function of time. The separation of the components A and B of Königstuhl 6 AB increases in 0.248 arcsec in the 10 epochs of observation spanning 62 years (from March 16, 1953 to August 5, 2015), which implies 0.004 arcsec per year.
 
 ---
 
@@ -142,113 +120,8 @@ By priority:
 
 ---
 
-## References
-
-The following are the bibliographic references in alphabetical order for the data used in this work.
-
-### Spectral type
-
-<a href="#"> </a>
-
-| Reference | Bibcode |
-| --- | --- |
-| AF15 | <a href="#">2015A&A...577A.128A</a> |
-| Bar14 | <a href="#">2014ApJ...794..143B</a> |
-| Cab10 | <a href="#">2010A&A...520A..91C</a> |
-| Can93 | <a href="#">1993yCat.3135....0C</a> |
-| Cab07b | <a href="#">2007ApJ...667..520C</a> |
-| Cif20 | <a href="#">2020A&A...642A.115C</a> |
-| Clo02 | <a href="#">2002ApJ...567L..53C</a> |
-| Cru03 | <a href="#">2003AJ....126.2421C</a> |
-| Dhi02 | <a href="#">2010AJ....139.2566D</a> |
-| Dhi10 | <a href="#">2010AJ....139.2566D</a> |
-| Joy49 | <a href="#">1949ApJ...109..231J</a> |
-| Gau12 | <a href="#">2012MNRAS.427.2457G</a> |
-| Gra03 | <a href="#">2003AJ....126.2048G</a> |
-| Gra06 | <a href="#">2006AJ....132..161G</a> |
-| Hou88 | <a href="#">1988MSS...C04....0H</a> |
-| Hou99 | <a href="#">1999MSS...C05....0H</a> |
-| Joh86 | <a href="#">1986ApJ...310..354J</a> |
-| Lep13 | <a href="#">2013AJ....145..102L</a> |
-| McC99 | <a href="#">1999ApJS..121....1M</a> |
-| Mon18 | <a href="#">2018MNRAS.479.1332M</a> |
-| New14 | <a href="#">2014AJ....147...20N</a> |
-| Pec13 | <a href="#">2013ApJS..208....9P</a> |
-| Rei08 | <a href="#">2008AJ....136.1290R</a> |
-| Ria06 | <a href="#">2006AJ....132..866R</a> |
-| Ste86 | <a href="#">1986AJ.....92..139S</a> |
-| Tsv08 | <a href="#">2008AstL...34...17T</a> |
-
-### Discoverer
-
-| Reference | Bibcode |
-| --- | --- |
-| Bal77 | <a href="#">1977SvAL....3..272B</a> |
-| Bur73 | <a href="#">1873MNRAS..33..351B</a> |
-| Cab07a | <a href="#">2007A&A...462L..61C</a> (KO 1) |
-| Cab07b | <a href="#">2007ApJ...667..520C</a> (KO 2 & KO 3) |
-| Cab12a | <a href="#">2012Obs...132....1C</a> (KO 4) |
-| Cab12b | <a href="#">2012Obs...132..176C</a> (KO 5) |
-| Cab12c | <a href="#">2012Obs...132..252C</a> (KO 6) |
-| Clo02 | <a href="#">2002ApJ&567L..53C</a> |
-| Dhi10 | <a href="#">2010AJ....139.2566D</a> |
-| Dun29 | <a href="#">1829MmRAS&3..257D</a> |
-| Gau12 | <a href="#">2012MNRAS.427.2457G</a> |
-| Gic61 | <a href="#">1961LowOB...5...61G</a> |
-| Her26 | <a href="#">1826MmRAS...2..459H</a> |
-| Hor12 | <a href="#">2012AJ....144..165H</a> |
-| Jan06 | <a href="#">2006A&A...453..609J</a> |
-| Jan06 | <a href="#">2006A&A...453..609J</a> |
-| Jan14 | <a href="#">2014ApJ...789..102J</a> |
-| Kna15 | <a href="#">2015JDSO...11..384K</a> |
-| Law06 | <a href="#">2006MNRAS.368.1917L</a> |
-| Lep01 | <a href="#">2001AJ....122.3407L</a> |
-| Lep13 | <a href="#">2013AJ....145..102L</a> |
-| Loc13 | <a href="#">See WDS |
-| Lop11 | <a href="#">2011JDSO....7...40L</a> |
-| RicXX | Review in WDS |
-| Sou24 | <a href="#">1824RSPT..114R...1H</a> |
-| Tak20 | <a href="#">2020arXiv201004024T</a> |
-| Tok79 | <a href="#">1979SvAL....5..229T</a> |
-| Vys56 | <a href="#">1956AJ.....61..201V</a> |
-| Zac13 | <a href="#">2013AJ....145...44Z</a> |
-
-### Parallaxes and proper motions
-
-| Reference | Bibcode |
-| --- | --- |
-| CatWISE20 | <a href="#">2020ApJS..247...69E</a> |
-| Dhi10 | <a href="#">2010AJ....139.2566D</a> |
-| Dit14 | <a href="#">2014ApJ...784..156D</a> |
-| Gaia2 | <a href="#">2018yCat.1345....0G</a> |
-| HIP2 | <a href="#">2007A&A...474..653V</a> |
-
-### Radial velocity
-
-| Reference | Bibcode |
-| --- | --- |
-| Bur15 | <a href="#">2015ApJS..220...18B</a> |
-| Gaia2 | <a href="#">2018yCat.1345....0G</a> |
-| New14 | <a href="#">2014AJ....147...20N</a> |
-| Shk10 | <a href="#">2010ApJ...716.1522S</a> |
-| Ter15 | <a href="#">2015ApJS..220...16T</a> |
 
 ---
-     
-## Installation
-
-> The files are self-contained, self-consistent, homogenoeusly formatted, fairly self-explanatory.
-
-- The code is provided as `*.py` files meant to be run individually.
-- They may be run as Python Notebooks. The symbol `# %%` starts a cell that can be run separately.
-- Most of the `*.py` files require of additional data contained in the folders stored in the repository.
-- Cloning or downloading the complete repository is strongly recommended (see below).
-- The installation of some basic libraries is a prerequisite: `numpy`, `scipy`, `astropy`, `matplotlib` and `pyperclip`. Other modules are included in the Python distribution and do not need additional installation (e.g., `csv`).
-
-### Clone
-
-- Clone this repo to your local machine using `git clone https://github.com/ccifuentesr/cif21-multiplicity`, or
-- Download this repo as a .zip and run the scripts in your local machine.
 
 ## Structure
 
@@ -397,6 +270,155 @@ Row-by-row description of `Xxx.csv`.
 **Notes:** 
 - Uncertainties in *Gaia* DR2 photometry are computed from the associated bolometric flux and its error.
 - In the description, 'B' (not *B*) should be read 'the closest component in multiple systems'.
+
+---
+
+## Charts
+
+The file `cif21.charts.pdf` is a 22-page pdf document that displays the 22 systems investigated in this work.
+Each page contains a single system, with the following information:
+
+- WDS name and discover(s) code(s), if the system is known, or 'New', if the system is reported for the first time in this work.
+- Common name of the resolved components.
+- Finding chart with a visual representation of the proper motion of each resolved component.
+- Description of the system by pairs, including a quantitative analysis of physical connection, based on the criteria described above. 
+- Astro-photometric description of the resolved components.   
+- Brief one-paragraph description of the system.
+
+As a visual aid, values that comply with the criteria for physical binding (see section [Parameters](#parameters)) and good astrometric quality data (i.e. RUWE < 1.4), are displayed in green. In case of poor or not complying, they are displayed in orange or red, respectively.
+
+---
+
+## Results
+
+<p float="center">
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png" width="49%" />
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png" width="49%" /> 
+Left: <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio against proper motion position angle difference. Right: Distances comparison between primary and additional components. Crosses denote sources that do not satisfy the criteria for physical parity as described in this document.
+</p>
+<p float="center">
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_Ug_M.png" width="49%" />
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_MG_GJ.png" width="49%" /> 
+Left: Binding energy against total mass. Right: Absolute magnitude <img src="https://render.githubusercontent.com/render/math?math=M_G"> against <img src="https://render.githubusercontent.com/render/math?math=G-J"> colour diagram. HD 134494 is a star that we re-classify as sub-giant, PYC J07311+4556 is a young candidate to the AB Doradus group, and LSPM J1633+0311S is a white dwarf.
+</p>
+
+### The case of Königstuhl 6 AB
+
+<p float="center">
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/KO6AB.png" width="80%" />
+</p>
+
+<img src="https://render.githubusercontent.com/render/math?math=\rho"> as a function of time. The separation of the components A and B of Königstuhl 6 AB increases in 0.248 arcsec in the 10 epochs of observation spanning 62 years (from March 16, 1953 to August 5, 2015), which implies 0.004 arcsec per year.
+
+---
+
+## References
+
+The following are the bibliographic references in alphabetical order for the data used in this work.
+
+### Spectral type
+
+<a href="#"> </a>
+
+| Reference | Bibcode |
+| --- | --- |
+| AF15 | <a href="#">2015A&A...577A.128A</a> |
+| Bar14 | <a href="#">2014ApJ...794..143B</a> |
+| Cab10 | <a href="#">2010A&A...520A..91C</a> |
+| Can93 | <a href="#">1993yCat.3135....0C</a> |
+| Cab07b | <a href="#">2007ApJ...667..520C</a> |
+| Cif20 | <a href="#">2020A&A...642A.115C</a> |
+| Clo02 | <a href="#">2002ApJ...567L..53C</a> |
+| Cru03 | <a href="#">2003AJ....126.2421C</a> |
+| Dhi02 | <a href="#">2010AJ....139.2566D</a> |
+| Dhi10 | <a href="#">2010AJ....139.2566D</a> |
+| Joy49 | <a href="#">1949ApJ...109..231J</a> |
+| Gau12 | <a href="#">2012MNRAS.427.2457G</a> |
+| Gra03 | <a href="#">2003AJ....126.2048G</a> |
+| Gra06 | <a href="#">2006AJ....132..161G</a> |
+| Hou88 | <a href="#">1988MSS...C04....0H</a> |
+| Hou99 | <a href="#">1999MSS...C05....0H</a> |
+| Joh86 | <a href="#">1986ApJ...310..354J</a> |
+| Lep13 | <a href="#">2013AJ....145..102L</a> |
+| McC99 | <a href="#">1999ApJS..121....1M</a> |
+| Mon18 | <a href="#">2018MNRAS.479.1332M</a> |
+| New14 | <a href="#">2014AJ....147...20N</a> |
+| Pec13 | <a href="#">2013ApJS..208....9P</a> |
+| Rei08 | <a href="#">2008AJ....136.1290R</a> |
+| Ria06 | <a href="#">2006AJ....132..866R</a> |
+| Ste86 | <a href="#">1986AJ.....92..139S</a> |
+| Tsv08 | <a href="#">2008AstL...34...17T</a> |
+
+### Discoverer
+
+| Reference | Bibcode |
+| --- | --- |
+| Bal77 | <a href="#">1977SvAL....3..272B</a> |
+| Bur73 | <a href="#">1873MNRAS..33..351B</a> |
+| Cab07a | <a href="#">2007A&A...462L..61C</a> (KO 1) |
+| Cab07b | <a href="#">2007ApJ...667..520C</a> (KO 2 & KO 3) |
+| Cab12a | <a href="#">2012Obs...132....1C</a> (KO 4) |
+| Cab12b | <a href="#">2012Obs...132..176C</a> (KO 5) |
+| Cab12c | <a href="#">2012Obs...132..252C</a> (KO 6) |
+| Clo02 | <a href="#">2002ApJ&567L..53C</a> |
+| Dhi10 | <a href="#">2010AJ....139.2566D</a> |
+| Dun29 | <a href="#">1829MmRAS&3..257D</a> |
+| Gau12 | <a href="#">2012MNRAS.427.2457G</a> |
+| Gic61 | <a href="#">1961LowOB...5...61G</a> |
+| Her26 | <a href="#">1826MmRAS...2..459H</a> |
+| Hor12 | <a href="#">2012AJ....144..165H</a> |
+| Jan06 | <a href="#">2006A&A...453..609J</a> |
+| Jan06 | <a href="#">2006A&A...453..609J</a> |
+| Jan14 | <a href="#">2014ApJ...789..102J</a> |
+| Kna15 | <a href="#">2015JDSO...11..384K</a> |
+| Law06 | <a href="#">2006MNRAS.368.1917L</a> |
+| Lep01 | <a href="#">2001AJ....122.3407L</a> |
+| Lep13 | <a href="#">2013AJ....145..102L</a> |
+| Loc13 | <a href="#">See WDS |
+| Lop11 | <a href="#">2011JDSO....7...40L</a> |
+| RicXX | Review in WDS |
+| Sou24 | <a href="#">1824RSPT..114R...1H</a> |
+| Tak20 | <a href="#">2020arXiv201004024T</a> |
+| Tok79 | <a href="#">1979SvAL....5..229T</a> |
+| Vys56 | <a href="#">1956AJ.....61..201V</a> |
+| Zac13 | <a href="#">2013AJ....145...44Z</a> |
+
+### Parallaxes and proper motions
+
+| Reference | Bibcode |
+| --- | --- |
+| CatWISE20 | <a href="#">2020ApJS..247...69E</a> |
+| Dhi10 | <a href="#">2010AJ....139.2566D</a> |
+| Dit14 | <a href="#">2014ApJ...784..156D</a> |
+| Gaia2 | <a href="#">2018yCat.1345....0G</a> |
+| HIP2 | <a href="#">2007A&A...474..653V</a> |
+
+### Radial velocity
+
+| Reference | Bibcode |
+| --- | --- |
+| Bur15 | <a href="#">2015ApJS..220...18B</a> |
+| Gaia2 | <a href="#">2018yCat.1345....0G</a> |
+| New14 | <a href="#">2014AJ....147...20N</a> |
+| Shk10 | <a href="#">2010ApJ...716.1522S</a> |
+| Ter15 | <a href="#">2015ApJS..220...16T</a> |
+
+---
+     
+## Installation
+
+> The files are self-contained, self-consistent, homogenoeusly formatted, fairly self-explanatory.
+
+- The code is provided as `*.py` files meant to be run individually.
+- They may be run as Python Notebooks. The symbol `# %%` starts a cell that can be run separately.
+- Most of the `*.py` files require of additional data contained in the folders stored in the repository.
+- Cloning or downloading the complete repository is strongly recommended (see below).
+- The installation of some basic libraries is a prerequisite: `numpy`, `scipy`, `astropy`, `matplotlib` and `pyperclip`. Other modules are included in the Python distribution and do not need additional installation (e.g., `csv`).
+
+### Clone
+
+- Clone this repo to your local machine using `git clone https://github.com/ccifuentesr/cif21-multiplicity`, or
+- Download this repo as a .zip and run the scripts in your local machine.
 
 ---
 
