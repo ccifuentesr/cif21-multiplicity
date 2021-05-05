@@ -1,7 +1,8 @@
 # One is the loneliest number: multiplicity in cool dwarfs
-## C. Cifuentes<sup id="a1">[1](#f1)</sup>, J. A. Caballero and S. Agustí
+## C. Cifuentes<sup id="a1">[1](#f1)</sup>, J. A. Caballero<sup id="a1">[1](#f1)</sup> and S. Agustí<sup id="a2">[2](#f2)</sup>
 
-1. <small id="f1"> Centro de Astrobiología </small> [↩](#a1) 
+1. <small id="f1">Centro de Astrobiología (CSIC-INTA), Madrid, Spain</small>
+2. <small id="f2">Lyceè Français, Madrid, Spain</small>
 
 _One is the loneliest number that you'll ever do  
 Two can be as bad as one  
