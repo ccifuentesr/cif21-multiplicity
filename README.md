@@ -1,4 +1,4 @@
-# One is the loneliest number<sup id="one">[⋆](#g)</sup>: multiplicity in cool dwarfs
+# One is the loneliest number<sup id="one">[★](#g)</sup>: multiplicity in cool dwarfs
 ## C. Cifuentes<sup>1</sup>, J. A. Caballero<sup>1</sup> and S. Agustí<sup>2</sup>
 
 1. <small id="f1">Centro de Astrobiología (CSIC-INTA), Madrid, Spain</small>
@@ -51,7 +51,7 @@ On the other hand, trapezia systems are usually very young and unstable.
 They interact strongly and chaotically in an N-body problem manner. 
 The competition for stable orbits is resolved with the fragmentation into multiple hierarchical systems.
 
-This work presents **22** multiple star systems, all containing M dwarfs, with different hierarchical configurations, including **12** double, **5** triple, **4** quadruple, and **1** quintuple systems.
+This work presents **22** multiple star systems (**11** known and **11** newly discovered), all containing M dwarfs, with different hierarchical configurations, including **12** double, **5** triple, **4** quadruple, and **1** quintuple systems.
 
 ---
 
@@ -61,7 +61,7 @@ The following parameters are computed in this work. The subindex <img src="https
 
 | Parameter | Unit | Formula | Annotations | 
 | --- | --- | --- | --- | 
-| Distance  | pc | <img src="https://render.githubusercontent.com/render/math?math=d = 1000/\varpi"> | <img src="https://render.githubusercontent.com/render/math?math=\varpi"> is the trigonometric parallax. |
+| Distance  | pc | <img src="https://render.githubusercontent.com/render/math?math=d = 1000/\varpi"> | <img src="https://render.githubusercontent.com/render/math?math=\varpi"> is the trigonometric parallax in milliarcseconds. |
 | Physical separation  | au | <img src="https://render.githubusercontent.com/render/math?math=s = \rho d"> | |
 | Apparent separation (e.g. A and B)  | arcsec | <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \sqrt{(\alpha_A-\alpha_B)^2 %2B (\delta_A-\delta_B)^2}"> | |
 | Total proper motion | km s-1 | <img src="https://render.githubusercontent.com/render/math?math=\mu = \sqrt{\mu_\alpha \cos{\delta}^2 %2B \mu_\delta^2}"> | |
@@ -81,8 +81,8 @@ The following parameters are used to discriminate between physical and visual pa
 **Notes:** 
 - <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio and <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> defined by Mon18.
 - We define physical parity if:
-	- <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio < 0.15.
-	- <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> < 15 deg.
+	- <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio < 0.15, and
+	- <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> < 15 deg, and
 	- <img src="https://render.githubusercontent.com/render/math?math=\Delta d"> < 0.10.
 
 ### Bolometric luminosities
@@ -221,7 +221,7 @@ Row-by-row description of `Xxx.csv`.
 |		|	rho_AC	|	arcsec	|	Angular separation between A and C components	|	
 |		|	theta_AB	|	deg	|	Position angle between A and B components	|	
 |		|	theta_AC	|	deg	|	Position angle between A and C components	|	
-|		|	muratio_AB	|	-	|	mu ratio between A and B	|	As described by Montes et al. 2018.
+|		|	muratio_AB	|	-	|	mu ratio between A and B	|	As described by <a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.1332M/abstract" target="_blank">Montes et al. 2018</a>.
 |		|	muratio_AC	|	-	|	mu ratio between A and C	|	As described by Montes et al. 2018.
 |		|	deltaPA_AB	|	deg	|	Difference of positional angle between A and B	|	As described by Montes et al. 2018.
 |		|	deltaPA_AC	|	deg	|	Difference of positional angle between A and C	|	As described by Montes et al. 2018.
@@ -374,7 +374,7 @@ The following are the bibliographic references in alphabetical order for the dat
 | Lep13 | <a href="#">2013AJ....145..102L</a> |
 | Loc13 | <a href="#">See WDS |
 | Lop11 | <a href="#">2011JDSO....7...40L</a> |
-| RicXX | Review in WDS |
+| Ric12 | <a href="#">2012JDSO....8..160R</a> |
 | Sou24 | <a href="#">1824RSPT..114R...1H</a> |
 | Tak20 | <a href="#">2020arXiv201004024T</a> |
 | Tok79 | <a href="#">1979SvAL....5..229T</a> |
