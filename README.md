@@ -120,6 +120,21 @@ By priority:
 
 ---
 
+## Charts
+
+The file `cif21.charts.pdf` is a 22-page pdf document that displays the 22 systems investigated in this work.
+Each page contains a single system, with the following information:
+
+- WDS name and discover(s) code(s), if the system is known, or 'New', if the system is reported for the first time in this work.
+- Common name of the resolved components.
+- Finding chart with a visual representation of the proper motion of each resolved component.
+- Description of the system by pairs, including a quantitative analysis of physical connection, based on the criteria described above. 
+- Astro-photometric description of the resolved components.   
+- Brief one-paragraph description of the system.
+
+As a visual aid, values that comply with the criteria for physical binding (see section [Parameters](#parameters)) and good astrometric quality data (i.e. RUWE < 1.4), are displayed in green. In case of poor or not complying, they are displayed in orange or red, respectively.
+
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/charts_example.png" width="75%" />
 
 ---
 
@@ -270,22 +285,6 @@ Row-by-row description of `Xxx.csv`.
 **Notes:** 
 - Uncertainties in *Gaia* DR2 photometry are computed from the associated bolometric flux and its error.
 - In the description, 'B' (not *B*) should be read 'the closest component in multiple systems'.
-
----
-
-## Charts
-
-The file `cif21.charts.pdf` is a 22-page pdf document that displays the 22 systems investigated in this work.
-Each page contains a single system, with the following information:
-
-- WDS name and discover(s) code(s), if the system is known, or 'New', if the system is reported for the first time in this work.
-- Common name of the resolved components.
-- Finding chart with a visual representation of the proper motion of each resolved component.
-- Description of the system by pairs, including a quantitative analysis of physical connection, based on the criteria described above. 
-- Astro-photometric description of the resolved components.   
-- Brief one-paragraph description of the system.
-
-As a visual aid, values that comply with the criteria for physical binding (see section [Parameters](#parameters)) and good astrometric quality data (i.e. RUWE < 1.4), are displayed in green. In case of poor or not complying, they are displayed in orange or red, respectively.
 
 ---
 
