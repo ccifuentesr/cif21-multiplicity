@@ -22,7 +22,7 @@
 - [Charts](#charts)
 - [Results](#results)
 - [References](#references)
-- [Installation](#installation)
+- [Code usage](#usage)
 - [Support](#support)
 - [Suggested Resources](#resources)
 
@@ -40,7 +40,6 @@ Then, radii and densities can be estimated from the masses, and mass-luminosity 
 Stars that are close together in the sky can be revealed as visual or as physical binaries.
 By analysing their distances, the relative movement and even their composition, we can determine if the pair is physically linked.
 In this case the two objects, bounded by gravity, follow elliptical orbits around their common barycenter, and we refer to it as a binary system.
-
 Very often, especially when the stars are distant, they appear as a single point of light to the unaided eye, but then are revealed as multiple by other means.
 Indirect techniques, such as spectroscopy, astrometry or photometry, can reveal systems of this kind.
 For example, the so called spectroscopic binaries are visible under a detailed study of signatures in their spectra, via the Doppler effect.
@@ -98,7 +97,7 @@ By priority:
 2. Via spectral type using Cif20.
 3. Via absolute magnitud in G using Cif20 
 
-> Earlier than K5 V:
+** Earlier than K5 V:**
 1. Via bolometric luminosity using Pec13.
 2. Via spectral type using Pec13.
 3. Via absolute magnitud in G using Pec13.
@@ -107,11 +106,11 @@ By priority:
 
 By priority:
 
-> Later or equal than K5 V:
+** Later or equal than K5 V:**
 1. Via bolometric luminosity using Cif20.
 2. Via absolute magnitud in G using Cif20.
 	
-> Earlier than K5 V:
+** Earlier than K5 V:**
 1. Via bolometric luminosity using Pec13.
 2. Via absolute magnitud in G using Pec13.
 3. Via absolute magnitud in J using Pec13.
@@ -150,7 +149,7 @@ The total size is ZZ MB.
 
 ### Files
 
-All files are named `cif21.xxx_yyy_zzz.py`, where `xxx` defines the kind of output that it produces, `yyy` gives additional information about the output, and `zzz` enumerates the main variables involved. For example, the script `cif20.plot_literature_Mabs_SpT.py` produces an absolute magnitude vs. spectral type plot, and compares the values with those of the literature. The complete list of files and their description can be found below sorted by output, in alphabetical order.
+The complete list of files and their description goes as follows:
 
 | File | Description | Input | Output| 
 | --- | --- | --- | --- | 
@@ -160,9 +159,6 @@ All files are named `cif21.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 | cif02.plots.py | Plots the figures shown in section [Results](#results) | Main table | Four plots in .png format|
 | cif02.params.py | Computes parameters to asses multiplicity of a system | Main table | See section [Parameters](#parameters) |
 | cif02.rho_epochs.py | Obtains the separation as a function of time spanning several epochs. | Input | Output|
-
-**Notes:** 
-- If necessary.
 
 ### The master table
 
@@ -174,7 +170,7 @@ All files are named `cif21.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 |	---	|	---	| --- |
 | 01 | February 2021 | Current version |
 
-Row-by-row description of `Xxx.csv`.
+Row-by-row description of `cif21.multiplicity.csv`.
 
 |	ID	|	Name	|	Units	|	Description	|	Annotations
 |	---	|	---	|	---	|	---	|	---
@@ -283,7 +279,7 @@ Row-by-row description of `Xxx.csv`.
 
 **Notes:** 
 - Uncertainties in *Gaia* EDR3 photometry are computed from the associated bolometric flux and its error.
-- In the description, 'B' (not *B*) should be read 'the closest component in multiple systems'.
+- In the description, 'B' (not *B*) should be read 'the closest component in multiple systems'. This apparent misnomer turns out to be convenient to designate a complete system in a single row of the table, with independence of the number of components.
 
 ---
 
@@ -405,15 +401,14 @@ The following are the bibliographic references in alphabetical order for the dat
 
 ---
      
-## Installation
+## Code usage
 
 > The files are self-contained, self-consistent, homogenoeusly formatted, fairly self-explanatory.
 
 - The code is provided as `*.py` files meant to be run individually.
 - They may be run as Python Notebooks. The symbol `# %%` starts a cell that can be run separately.
-- Most of the `*.py` files require of additional data contained in the folders stored in the repository.
 - Cloning or downloading the complete repository is strongly recommended (see below).
-- The installation of some basic libraries is a prerequisite: `numpy`, `scipy`, `astropy`, `matplotlib` and `pyperclip`. Other modules are included in the Python distribution and do not need additional installation (e.g., `csv`).
+- The installation of some basic libraries is a prerequisite: `numpy`, `scipy`, `astropy`, `matplotlib` and `pyperclip`. Other modules are included in the Python distribution and do not need additional installation (e.g. `csv`).
 
 ### Clone
 
