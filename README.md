@@ -302,11 +302,13 @@ Left: Binding energy against total mass. Right: Absolute magnitude <img src="htt
 
 ### The case of Königstuhl 6 AB
 
+LP 209-28 and LP 209-27 (KO6 AB) is a pair proposed as a binary system by <a href="https://ui.adsabs.harvard.edu/abs/2012Obs...132..252C/abstract" target="_blank">Caballero et al. 2012</a>. *Gaia* EDR3 introduces a notable dissimilarity in distance between components, accompanied by a good single-star model fitting (i.e. RUWE < 1.4). This means that we do not expect additional multiplicity in either component, and the difference in parallactic determination would not be the cause of close, unresolved companions. Therefore, we propose this system as a visual pair.
+
 <p float="center">
   <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/KO6AB.png" width="80%" />
 </p>
 
-<img src="https://render.githubusercontent.com/render/math?math=\rho"> as a function of time. The separation of the components A and B of Königstuhl 6 AB increases in 0.248 arcsec in the 10 epochs of observation spanning 62 years (from March 16, 1953 to August 5, 2015), which implies 0.004 arcsec per year.
+Additionally, measuring the projected separation, <img src="https://render.githubusercontent.com/render/math?math=\rho">, as a function of time for 10 epochs of observation available spanning 62 years (from March 16, 1953 to August 5, 2015), we find that the separation between the components increases in 0.248 arcsec, which implies 0.004 arcsec per year.
 
 ---
 
@@ -431,7 +433,9 @@ Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.
 - <a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">Style Guide for Python Code (PEP 8)</a>
 - <a href="https://carmenes.caha.es" target="_blank">CARMENES Website</a>
 
-### <sup>⋆</sup>One
+### <sup>*</sup>One
+
+<small id="one">One</small> [↩](#g) 
 
 _One is the loneliest number that you'll ever do  
 Two can be as bad as one  
