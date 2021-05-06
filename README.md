@@ -282,7 +282,7 @@ Row-by-row description of `Xxx.csv`.
 |		|	qph	|	-	|	*W1W2W3W4* Photometric quality flag [ABCUXZ]	|	Four character flag, one character per band [W1/W2/W3/W4], that provides a shorthand summary of the quality of the profile-fit photometry measurement in each band, as derived from the measurement signal-to-noise ratio.
 
 **Notes:** 
-- Uncertainties in *Gaia* DR2 photometry are computed from the associated bolometric flux and its error.
+- Uncertainties in *Gaia* EDR3 photometry are computed from the associated bolometric flux and its error.
 - In the description, 'B' (not *B*) should be read 'the closest component in multiple systems'.
 
 ---
@@ -372,7 +372,6 @@ The following are the bibliographic references in alphabetical order for the dat
 | Law06 | <a href="#">2006MNRAS.368.1917L</a> |
 | Lep01 | <a href="#">2001AJ....122.3407L</a> |
 | Lep13 | <a href="#">2013AJ....145..102L</a> |
-| Loc13 | <a href="#">See WDS |
 | Lop11 | <a href="#">2011JDSO....7...40L</a> |
 | Ric12 | <a href="#">2012JDSO....8..160R</a> |
 | Sou24 | <a href="#">1824RSPT..114R...1H</a> |
@@ -386,10 +385,10 @@ The following are the bibliographic references in alphabetical order for the dat
 | Reference | Bibcode |
 | --- | --- |
 | CatWISE20 | <a href="#">2020ApJS..247...69E</a> |
-| Dhi10 | <a href="#">2010AJ....139.2566D</a> |
 | Dit14 | <a href="#">2014ApJ...784..156D</a> |
 | Gaia2 | <a href="#">2018yCat.1345....0G</a> |
-| HIP2 | <a href="#">2007A&A...474..653V</a> |
+| GaiaEDR3 | <a href="#">2021A&A...649A...1G</a> |
+| Lep05 | <a href="#">2005AJ....129.1483L</a> |
 
 ### Radial velocity
 
@@ -397,6 +396,7 @@ The following are the bibliographic references in alphabetical order for the dat
 | --- | --- |
 | Bur15 | <a href="#">2015ApJS..220...18B</a> |
 | Gaia2 | <a href="#">2018yCat.1345....0G</a> |
+| GaiaEDR3 | <a href="#">2021A&A...649A...1G</a> |
 | New14 | <a href="#">2014AJ....147...20N</a> |
 | Shk10 | <a href="#">2010ApJ...716.1522S</a> |
 | Ter15 | <a href="#">2015ApJS..220...16T</a> |
