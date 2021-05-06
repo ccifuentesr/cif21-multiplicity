@@ -30,6 +30,8 @@
 
 ## Summary
 
+> Stars in multiple systems offer a unique opportunity to learn about stellar formation and evolution. As they settle down into stable configurations, multiple systems arrange in a variety of hierarchies and separations between the components. We examine 11 known and 11 newly discovered multiple systems including at least one M dwarf with the latest astrometric data from Gaia Early Data Release 3 (EDR3). We find that the individual components of systems at very wide separations are often multiple systems themselves.
+
 Multiple star systems are particularly important in astrophysics.
 Measuring their orbits reveals very relevant information about them, only accessible theoretically otherwise.
 For instance, the masses of the components of these systems can be determined directly, applying fundamental laws of gravity.
@@ -50,8 +52,6 @@ Most multiple star systems are found to be triple.
 On the other hand, trapezia systems are usually very young and unstable.
 They interact strongly and chaotically in an N-body problem manner. 
 The competition for stable orbits is resolved with the fragmentation into multiple hierarchical systems.
-
-This work presents **22** multiple star systems (**11** known and **11** newly discovered), all containing M dwarfs, with different hierarchical configurations, including **12** double, **5** triple, **4** quadruple, and **1** quintuple systems.
 
 ---
 
@@ -79,43 +79,43 @@ The following parameters are used to discriminate between physical and visual pa
 | <img src="https://render.githubusercontent.com/render/math?math=\Delta d"> | - | <img src="https://render.githubusercontent.com/render/math?math=\Delta d = \lvert d_A-d_B \rvert/d_A"> | |
 
 **Notes:** 
-- <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio and <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> defined by Mon18.
-- We define physical parity if:
+- <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio and <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> defined by <a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.1332M/abstract" target="_blank">Montes et al. 2018</a> (Mon18).
+- We define positive physical parity if:
 	- <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio < 0.15, and
 	- <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> < 15 deg, and
 	- <img src="https://render.githubusercontent.com/render/math?math=\Delta d"> < 0.10.
 
 ### Bolometric luminosities
 
-All luminosities were computed using the Virtual Observatory SED Analyzer (<a href="http://svo2.cab.inta-csic.es/theory/vosa/" target="_blank">VOSA</a>), using the BT-Settl CIFIST grid of models. Close binaries (<img src="https://render.githubusercontent.com/render/math?math=\rho"> < 5 arcsec) are dismissed in this calculation.
+All luminosities were computed using the Virtual Observatory SED Analyzer (<a href="http://svo2.cab.inta-csic.es/theory/vosa/" target="_blank">VOSA</a>), using the BT-Settl CIFIST grid of models ([Fe/H] = 0.0). Close binaries (<img src="https://render.githubusercontent.com/render/math?math=\rho"> < 5 arcsec) are dismissed in this calculation.
 
 ### Masses
 
 By priority:
 
-> Later or equal than K5 V:
-1. Via Lbol using Cif20.
-2. Via SpT using Cif20.
-3. Via MG using Cif20 
+**Later or equal than K5 V:**
+1. Via bolometric luminosity using Cif20.
+2. Via spectral type using Cif20.
+3. Via absolute magnitud in G using Cif20 
 
 > Earlier than K5 V:
-1. Via Lbol using Pec13.
-2. Via SpT using Pec13.
-3. Via MG using Pec13.
+1. Via bolometric luminosity using Pec13.
+2. Via spectral type using Pec13.
+3. Via absolute magnitud in G using Pec13.
 
 ### Spectral types
 
 By priority:
 
 > Later or equal than K5 V:
-1. Via Lbol using Cif20.
-2. Via MG using Cif20.
+1. Via bolometric luminosity using Cif20.
+2. Via absolute magnitud in G using Cif20.
 	
 > Earlier than K5 V:
-1. Via Lbol using Pec13.
-2. Via MG using Pec13.
-3. Via MJ using Pec13.
-4. Via interpolation with known SpT using MG (w/o MJ or Lbol available).
+1. Via bolometric luminosity using Pec13.
+2. Via absolute magnitud in G using Pec13.
+3. Via absolute magnitud in J using Pec13.
+4. Via interpolation with known spectral type using absolute magnitud in J (only if 1-3 are not available).
 
 ---
 
@@ -221,10 +221,10 @@ Row-by-row description of `Xxx.csv`.
 |		|	rho_AC	|	arcsec	|	Angular separation between A and C components	|	
 |		|	theta_AB	|	deg	|	Position angle between A and B components	|	
 |		|	theta_AC	|	deg	|	Position angle between A and C components	|	
-|		|	muratio_AB	|	-	|	mu ratio between A and B	|	As described by <a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.1332M/abstract" target="_blank">Montes et al. 2018</a>.
-|		|	muratio_AC	|	-	|	mu ratio between A and C	|	As described by Montes et al. 2018.
-|		|	deltaPA_AB	|	deg	|	Difference of positional angle between A and B	|	As described by Montes et al. 2018.
-|		|	deltaPA_AC	|	deg	|	Difference of positional angle between A and C	|	As described by Montes et al. 2018.
+|		|	muratio_AB	|	-	|	mu ratio between A and B	|	As described by Mon18.
+|		|	muratio_AC	|	-	|	mu ratio between A and C	|	As described by Mon18.
+|		|	deltaPA_AB	|	deg	|	Difference of positional angle between A and B	|	As described by Mon18.
+|		|	deltaPA_AC	|	deg	|	Difference of positional angle between A and C	|	As described by Mon18.
 |		|	deltad_AB	|	-	|	Distance ratio between A and B	|	Described as <img src="https://render.githubusercontent.com/render/math?math=d_A-d_B/d_A"> .
 |		|	deltad_AC	|	-	|	Distance ratio between A and C	|	Described as <img src="https://render.githubusercontent.com/render/math?math=\Delta d/d_A">.
 |		|	s_AB	|	au	|	Projected physical separation between A and B	|	
