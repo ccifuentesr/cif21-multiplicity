@@ -97,7 +97,7 @@ By priority:
 2. Via spectral type using Cif20.
 3. Via absolute magnitud in G using Cif20 
 
-** Earlier than K5 V:**
+**Earlier than K5 V:**
 1. Via bolometric luminosity using Pec13.
 2. Via spectral type using Pec13.
 3. Via absolute magnitud in G using Pec13.
@@ -106,11 +106,11 @@ By priority:
 
 By priority:
 
-** Later or equal than K5 V:**
+**Later or equal than K5 V:**
 1. Via bolometric luminosity using Cif20.
 2. Via absolute magnitud in G using Cif20.
 	
-** Earlier than K5 V:**
+**Earlier than K5 V:**
 1. Via bolometric luminosity using Pec13.
 2. Via absolute magnitud in G using Pec13.
 3. Via absolute magnitud in J using Pec13.
