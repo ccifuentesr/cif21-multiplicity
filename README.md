@@ -151,12 +151,12 @@ The complete list of files and their description goes as follows:
 
 | File | Description | Input | Output| 
 | --- | --- | --- | --- | 
-| cif02.charts.py | Preliminar LaTeX chart for describing multiple systems | Main table | A .tex file for each star |
-| cif02.dphot.py | Photometric distance formulas (Table 5 in <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>) | G, r, J and errors | Two photometric distances estimated from G-J and r-J |
-| cif02.MR.py | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweitzer et al. 2019</a> | Lbol, Teff and errors | Masses, radii and errors |
-| cif02.plots.py | Plots the figures shown in section [Results](#results) | Main table | Four plots in .png format|
-| cif02.params.py | Computes parameters to asses multiplicity of a system | Main table | See section [Parameters](#parameters) |
-| cif02.rho_epochs.py | Obtains the separation as a function of time spanning several epochs. | Input | Output|
+| cif21.charts.py | Preliminar LaTeX chart for describing multiple systems | Main table | A .tex file for each star |
+| cif21.dphot.py | Photometric distance formulas (Table 5 in <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>) | G, r, J and errors | Two photometric distances estimated from G-J and r-J |
+| cif21.MR.py | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweitzer et al. 2019</a> | Lbol, Teff and errors | Masses, radii and errors |
+| cif21.plots.py | Plots the figures shown in section [Results](#results) | Main table | Four plots in .png format|
+| cif21.params.py | Computes parameters to asses multiplicity of a system | Main table | See section [Parameters](#parameters) |
+| cif21.rho_epochs.py | Obtains the separation as a function of time spanning several epochs. | Input | Output|
 
 ### The master table
 
