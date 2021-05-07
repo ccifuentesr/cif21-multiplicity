@@ -143,9 +143,7 @@ As a visual aid, values that comply with the criteria for physical binding (see 
 ### Directories
 
 - Directory ./: Includes all the code files classified as detailed below and the master table (`cif21.multiplicity.csv`). [XX files, YY MB]
-- Directory ./Nnn: Includes ... [XX files, YY MB]
-
-The total size is ZZ MB.
+- Directory ./Astrometry/: Includes the astrometric data for the specific case of KO6 AB (see section [Results](#results)).
 
 ### Files
 
@@ -185,7 +183,7 @@ Row-by-row description of `cif21.multiplicity.csv`.
 |		|	SpT	|	-	|	Spectral type 	|	When estimated, lowercase is used (e.g. m3 V).
 |		|	SpTnum	|	-	|	Spectral type in numerical format 	|	SpTnum = -2.0 for K5V ; -1.0 for K7V ; 0.0 for M0.0V ; 0.5 for M0.5V ; ... ; 10.0 for L0.0 ; 10.5 for L0.5 ; etc.
 |		|	SpT_ref	|	-	|	Reference for the spectral type 	|	See references after this table.
-|		|	Discoverer	|	-	|	Reference for the discoverer	|	See note (X)
+|		|	Discoverer	|	-	|	Reference for the discoverer	|	See references after this table.
 |		|	WDS_name	|	-	|	WDS name (based on J2000 position)	|	See Component annotation.
 |		|	WDS_disc	|	-	|	Discoverer Code (1 to 4 letters) and Number	|	Originally 3 letters represent the discoverer; an additional 'A' denotes an appendix, 'B' a second appendix, e.g. in the lists of F. Struve: STF1004 is the 1004th system in the main list, STFA 11 is the 11th system of the first appendix, STFB 12 is the 12th system of the second appendix, etc (from WDS).
 |		|	WDS_comp	|	-	|	Component identifier from WDS	|	Components when more than 2
