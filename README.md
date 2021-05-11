@@ -284,13 +284,13 @@ Row-by-row description of `cif21.multiplicity.csv`.
 ## Results
 
 <p float="center">
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_deltaPA_muratio.png" width="49%" />
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_d2_d1.png" width="49%" /> 
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif21_deltaPA_muratio.png" width="49%" />
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif21_d2_d1.png" width="49%" /> 
 Left: <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio against proper motion position angle difference. Right: Distances comparison between primary and additional components. Crosses denote sources that do not satisfy the criteria for physical parity as described in this document.
 </p>
 <p float="center">
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_Ug_M.png" width="49%" />
-  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif02_MG_GJ.png" width="49%" /> 
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif21_Ug_M.png" width="49%" />
+  <img src="https://github.com/ccifuentesr/cif21-multiplicity/blob/main/cif21_MG_GJ.png" width="49%" /> 
 Left: Binding energy against total mass. Right: Absolute magnitude <img src="https://render.githubusercontent.com/render/math?math=M_G"> against <img src="https://render.githubusercontent.com/render/math?math=G-J"> colour diagram. HD 134494 is a star that we re-classify as sub-giant, PYC J07311+4556 is a young candidate to the AB Doradus group, and LSPM J1633+0311S is a white dwarf.
 </p>
 
