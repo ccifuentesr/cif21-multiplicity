@@ -149,14 +149,16 @@ As a visual aid, values that comply with the criteria for physical binding (see 
 
 The complete list of files and their description goes as follows:
 
-| File | Description | Input | Output| 
-| --- | --- | --- | --- | 
-| cif21.charts.py | Preliminar LaTeX chart for describing multiple systems | Main table | A .tex file for each star |
-| cif21.dphot.py | Photometric distance formulas (Table 5 in <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>) | G, r, J and errors | Two photometric distances estimated from G-J and r-J |
-| cif21.MR.py | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweitzer et al. 2019</a> | Lbol, Teff and errors | Masses, radii and errors |
-| cif21.plots.py | Plots the figures shown in section [Results](#results) | Main table | Four plots in .png format|
-| cif21.params.py | Computes parameters to asses multiplicity of a system | Main table | See section [Parameters](#parameters) |
-| cif21.rho_epochs.py | Obtains the separation as a function of time spanning several epochs. | Input | Output|
+| File | Type | Description | Input | Output| 
+| --- | --- | --- | --- | --- | 
+| cif21.charts.py | Code | Preliminar LaTeX chart for describing multiple systems | Main table | A .tex file for each star |
+| cif21.dphot.py | Code |  Photometric distance formulas (Table 5 in <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>) | G, r, J and errors | Two photometric distances estimated from G-J and r-J |
+| cif21.MR.py | Code | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweitzer et al. 2019</a> | Lbol, Teff and errors | Masses, radii and errors |
+| cif21.plots.py | Code | Plots the figures shown in section [Results](#results) | Main table | Four plots in .png format|
+| cif21.params.py | Code | Computes parameters to asses multiplicity of a system | Main table | See section [Parameters](#parameters) |
+| cif21.rho_epochs.py | Code | Obtains the separation as a function of time spanning several epochs. | Input | Output|
+| Mamajek_Pec13.csv | Code | Tabular data from <a href="https://ui.adsabs.harvard.edu/abs/2013ApJS..208....9P/abstract" target="_blank">Pecait & Mamajek 2013</a> |  | Output|
+
 
 ### The master table
 
