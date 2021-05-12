@@ -150,9 +150,9 @@ The complete list of files and their description goes as follows:
 
 | File | Type | Description | 
 | --- | --- | --- | 
-| `cif21.multiplicity.csv` | Input data | Main table as described below |
-| `Mamajek_Pec13.csv` | Input data | Tabular data from <a href="https://ui.adsabs.harvard.edu/abs/2013ApJS..208....9P/abstract" target="_blank">Pecaut & Mamajek 2013</a> |
-| `KO6AB.csv` | Input data | Positions during 11 epochs (1953-2015) for the system KO6 AB |
+| `cif21.multiplicity.csv` | Main table | The master table as described below |
+| `Mamajek_Pec13.csv` | Input  | Tabular data from <a href="https://ui.adsabs.harvard.edu/abs/2013ApJS..208....9P/abstract" target="_blank">Pecaut & Mamajek 2013</a> |
+| `KO6AB.csv` | Input | Positions during 11 epochs (1953-2015) for the system KO6 AB |
 | `cif21.charts.pdf` | Code | Obtains the separation as a function of time spanning several epochs (e.g. `KO6AB.csv`) |
 | `cif21.charts.py` | Code | Preliminar LaTeX chart for describing multiple systems |
 | `cif21.dphot.py` | Code |  Photometric distance formulas using _G_ and _J_ magnitudes (Table 5 in <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>) |
@@ -167,13 +167,7 @@ The complete list of files and their description goes as follows:
 
 `cif21.multiplicity.csv` contains **53** rows and **108** columns. It is stored in the root directory and can be manipulated separately with tabular data management software such as <a href="http://www.star.bris.ac.uk/~mbt/topcat/" target="_blank">TOPCAT</a>.
 
-**Version history**
-
-|	Version	|	Date	| Comments |
-|	---	|	---	| --- |
-| 01 | February 2021 | Current version |
-
-Row-by-row description of `cif21.multiplicity.csv`.
+**Row-by-row description of `cif21.multiplicity.csv`.**
 
 |	ID	|	Name	|	Units	|	Description	|	Annotations
 |	---	|	---	|	---	|	---	|	---
