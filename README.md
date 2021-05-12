@@ -415,7 +415,9 @@ Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.
 - <a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">Style Guide for Python Code (PEP 8)</a>
 - <a href="https://carmenes.caha.es" target="_blank">CARMENES Website</a>
 
-# <sup>*</sup>One
+---
+
+## <sup>*</sup>One
 
 _One is the loneliest number that you'll ever do  
 Two can be as bad as one  
