@@ -1,12 +1,11 @@
 # %%
 
-# UTILITIES: PHOTOMETRIC DISTANCE CALCULATOR
+# PHOTOMETRIC DISTANCE CALCULATOR
 # Using the polynomial fits in Table 5 (Cifuentes et al. 2020)
-# C. Cifuentes San Roman (2021)
+# Cifuentes et al. (2021)
 
 import numpy as np
 import matplotlib
-
 
 def dphot_G(G, J, eG, eJ):
     a = 16.24
@@ -27,7 +26,6 @@ def dphot_G(G, J, eG, eJ):
     derr = np.sqrt(d*(eG**2 + Mabserr**2)**2/np.log(10))
     return(d)
 
-
 def dphot_r(r, J, er, eJ):
     a = 8.38
     b = -2.74
@@ -45,7 +43,6 @@ def dphot_r(r, J, er, eJ):
                       2 + x**6+derr**6 + (b + 2*x*c + 3*d*x**2)**2*xerr**2)
     d = 10**((5 + r - Mabs)/5)
     return d
-
 
 def (G, r, J, eG, er, eJ):
     d_G = dphot_G(G, J, eG, eJ)

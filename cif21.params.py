@@ -29,11 +29,11 @@ plt.rcParams['mathtext.fontset'] = 'dejavuserif'
 
 # Data
 
-input_name = 'cif02.binaries.v18'
+input_name = 'cif21.multiplicity'
 output_name = input_name + '_out' + '.csv'
-pec13_name = 'Mamajek_Pec13.csv'
+pec13_name = 'Pec13.csv'
 
-df = pd.read_csv('Data/'+input_name+'.csv')
+df = pd.read_csv(input_name+'.csv')
 pec13 = pd.read_csv('Data/'+pec13_name)
 
 # Variables
@@ -244,8 +244,6 @@ def P(M1, rho, d_pc):
 # %%
 # Parameter calculation
 
-#
-
 MG = []
 MJ = []
 s_AB = []
@@ -317,4 +315,4 @@ parameters = pd.DataFrame({'ID': ID, 'theta_AB': theta_AB, 'theta_AC': theta_AC,
                            'deltaPA_AC': deltaPA_AC, 'deltad_AB': deltad_AB, 'deltad_AC': deltad_AC, 's_AB': s_AB, 's_AC': s_AC, 'MG': MG, 'MJ': MJ,
                            'Mass_Lbol': Mass_Lbol, 'Mass_MG': Mass_MG, 'Ug_AB': Ug_AB, 'Ug_AC': Ug_AC, 'Porb_AB': Porb_AB, 'Porb_AC': Porb_AC})
 output = pd.concat([df, parameters], axis=1)
-output.to_csv('Output/' + output_name, sep=',', encoding='utf-8')
+output.to_csv(output_name, sep=',', encoding='utf-8')

@@ -1,7 +1,7 @@
 # %%
 # RHO CALCULATOR
 # Obtains the separation as a function of time spanning several epochs.
-# C. Cifuentes San Roman (2021)
+# Cifuentes et al. (2021)
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -19,7 +19,7 @@ plt.rcParams['mathtext.fontset'] = 'dejavuserif'
 
 filename = 'KO6AB'
 
-df_ = pd.read_csv('Astrometry/'+filename+'.csv')
+df_ = pd.read_csv(filename+'.csv')
 df = df_.loc[df_['INCLUDE'] == True]
 
 # rho & theta

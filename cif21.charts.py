@@ -1,16 +1,16 @@
 # %%
 
-# UTILITIES: LATEX CHARTS GENERATOR
+# LATEX CHART GENERATOR
 # Preliminar chart for describing multiple systems in .tex format
-# C. Cifuentes San Roman (2021)
+# Cifuentes et al. (2021)
 
 import numpy as np
 import csv
 import pandas as pd
 import textwrap
 
-filename = 'cif02.binaries.v18'
-df = pd.read_csv('Data/'+filename+'.csv')
+filename = 'cif21.multiplicity'
+df = pd.read_csv(filename+'.csv')
 
 for i in range(len(df)-1):
     if df['ID_system'][i] == df['ID_system'][i+1]:

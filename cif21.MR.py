@@ -1,18 +1,18 @@
 # %%
 
-# CALCULATOR: RADII AND MASSES
-# Radii and masses from Stefan-Boltzmann and Schweitzer et al. 2019.
-# C. Cifuentes San Roman (2021)
+# RADII AND MASSES CALCULATOR
+# Stefan-Boltzmann and Schweitzer et al. 2019.
+# Cifuentes et al. (2021)
 
 import numpy as np
 import pandas as pd
 
 # Data
 
-input_name = 'cif02.binaries.v18'
+input_name = 'cif21.multiplicity'
 output_name = input_name + '_MR.csv'
 
-df = pd.read_csv('Data/'+input_name+'.csv')
+df = pd.read_csv(input_name+'.csv')
 
 ID = df['ID_star']
 Lbol = df['Lbol']
@@ -20,8 +20,7 @@ e_Lbol = df['Lberr']
 Teff = df['Teff']
 e_Teff = df['e_Teff']
 
-# Radius (Stefan-Boltzmann) and Mass (Schweizter+19)
-
+# Radius (Stefan-Boltzmann) and Mass (Schweitzer+19)
 
 def Radius_SB(Lbol, Lberr, Teff, eTeff):
     """Stellar radius and its error from the Stefan–Boltzmann law under the black body approximation.
@@ -46,15 +45,14 @@ def Radius_SB(Lbol, Lberr, Teff, eTeff):
     Stefan-Boltzmann constant value from 2018 CODATA recommended values:
     https://physics.nist.gov/cuu/pdf/wall_2018.pdf
 
-    Stefan-Boltzman constant, k: 5.670 374 419 x 10-8 W m-2 K-4 (exact)
+    Stefan-Boltzman constant, sigma: 5.670 374 419 x 10-8 W m-2 K-4 (exact)
 
     """
     Lsun = 3.828*1e26
     Rsun = 6.957*1e8
-    sigma = 5.670367*1e-8
-    a = (Lbol*Lsun)/(4*np.pi*sigma*Teff**4*Rsun**2)
+    sigma = 5.670374419*1e-8
     R = 1/Rsun * np.sqrt(Lbol*Lsun/(4*np.pi*sigma*Teff**4))
-    eR = np.sqrt(a * ((Lberr/(2*Lbol))**2 + (-2*eTeff/Teff)**2))
+    eR = R * np.sqrt((Lberr/(2*Lbol))**2 + (-2*eTeff/Teff)**2)
     return(R, eR)
 
 
@@ -81,7 +79,6 @@ def Mass_sch19(Radius, eRadius):
     return(M, eM)
 
 # Results
-
 
 Radius = Radius_SB(Lbol, e_Lbol, Teff, e_Teff)
 Mass = Mass_sch19(Radius[0], Radius[1])

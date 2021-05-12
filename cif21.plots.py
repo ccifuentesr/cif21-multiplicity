@@ -1,7 +1,7 @@
 # %%
 
 # PLOTS
-# C. Cifuentes San Roman (2021)
+# Cifuentes et al. (2021)
 
 # ∆PA vs. mu ratio
 # d2 vs. d1
@@ -27,8 +27,8 @@ plt.rcParams.update({'errorbar.capsize': 4})
 
 # Data
 
-filename = 'cif02.binaries.v18'
-df = pd.read_csv('Data/'+filename+'.csv')
+filename = 'cif21.multiplicity'
+df = pd.read_csv(filename+'.csv')
 
 # Sizes
 
@@ -43,7 +43,7 @@ linewidth = 1.5
 # %%
 # Plot: ∆PA vs. mu ratio
 
-filename = 'cif02_deltaPA_muratio'
+filename = 'cif21_deltaPA_muratio'
 
 # Variables
 # Physical pairs according to the criteria by Montes et al. 2018.
@@ -131,7 +131,7 @@ plt.savefig(filename+'.png', bbox_inches='tight')
 # %%
 # Plot: d2 vs. d1
 
-filename = 'cif02_d2_d1'
+filename = 'cif21_d2_d1'
 
 # Variables
 
@@ -208,7 +208,7 @@ plt.savefig(filename+'.png', bbox_inches='tight')
 # %%
 # Plot: MG vs. G-J
 
-filename = 'cif02_MG_GJ'
+filename = 'cif21_MG_GJ'
 
 # Add columns to dataframe
 
@@ -275,7 +275,7 @@ plt.savefig(filename+'.png', bbox_inches='tight')
 # %%
 # Plot: Ug vs. Mtotal
 
-filename = 'cif02_Ug_M'
+filename = 'cif21_Ug_M'
 
 # Calculate binding energy -Ug*
 # '*' denotes the approximation r ~ s.
