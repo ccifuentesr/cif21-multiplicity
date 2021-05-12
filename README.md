@@ -1,4 +1,4 @@
-# One is the loneliest number<sup id="one">[*](#one)</sup>: multiplicity in cool dwarfs
+# One<sup>[*](#one)</sup> is the loneliest number: multiplicity in cool dwarfs
 ## C. Cifuentes<sup>1</sup>, J. A. Caballero<sup>1</sup> and S. Agustí<sup>2</sup>
 
 1. <small id="f1">Centro de Astrobiología (CSIC-INTA), Madrid, Spain</small>
