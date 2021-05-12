@@ -1,4 +1,4 @@
-# One is the loneliest number<sup id="one">[*](#g)</sup>: multiplicity in cool dwarfs
+# One is the loneliest number<sup id="one">[*](#one)</sup>: multiplicity in cool dwarfs
 ## C. Cifuentes<sup>1</sup>, J. A. Caballero<sup>1</sup> and S. Agustí<sup>2</sup>
 
 1. <small id="f1">Centro de Astrobiología (CSIC-INTA), Madrid, Spain</small>
@@ -25,6 +25,7 @@
 - [Code usage](#usage)
 - [Support](#support)
 - [Suggested Resources](#resources)
+- [One](#one)
 
 ---
 
@@ -414,7 +415,7 @@ Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.
 - <a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">Style Guide for Python Code (PEP 8)</a>
 - <a href="https://carmenes.caha.es" target="_blank">CARMENES Website</a>
 
-### <sup>*</sup>One
+# <sup>*</sup>One
 
 _One is the loneliest number that you'll ever do  
 Two can be as bad as one  
