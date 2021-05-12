@@ -9,7 +9,7 @@
 [![Publication](https://img.shields.io/badge/Published%3F-no-orange.svg)]()
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/ccifuentesr)
-[![Music](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://www.youtube.com/watch?v=DYzY7-V5vxY)
+[![Music](https://img.shields.io/badge/Music%3F-yes-green.svg)](https://www.youtube.com/watch?v=DYzY7-V5vxY)
 
 > This repository contains the data, the code and complementary science for the publication <a href="#" target="_blank">Cifuentes et al. 2021</a> (submitted to RNAAS).
 
