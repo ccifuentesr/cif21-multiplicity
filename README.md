@@ -151,12 +151,12 @@ The complete list of files and their description goes as follows:
 | File | Type | Description | 
 | --- | --- | --- | 
 | `cif21.multiplicity.csv` | Main table | The master table as described below |
-| `Mamajek_Pec13.csv` | Input  | Tabular data from <a href="https://ui.adsabs.harvard.edu/abs/2013ApJS..208....9P/abstract" target="_blank">Pecaut & Mamajek 2013</a> |
+| `Mamajek_Pec13.csv` | Input  | Tabular data from <a href="https://ui.adsabs.harvard.edu/abs/2013ApJS..208....9P/abstract" target="_blank">Pecaut & Mamajek (2013)</a> |
 | `KO6AB.csv` | Input | Positions during 11 epochs (1953-2015) for the system KO6 AB |
 | `cif21.charts.pdf` | Code | Obtains the separation as a function of time spanning several epochs (e.g. `KO6AB.csv`) |
 | `cif21.charts.py` | Code | Preliminar LaTeX chart for describing multiple systems |
 | `cif21.dphot.py` | Code |  Photometric distance formulas using _G_ and _J_ magnitudes (Table 5 in <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>) |
-| `cif21.MR.py` | Code | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweitzer et al. 2019</a> |
+| `cif21.MR.py` | Code | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweitzer et al. (2019)</a> |
 | `cif21.params.py` | Code | Computes parameters to decide on the multiplicity of a system (see section [Parameters](#parameters)) |
 | `cif21.plots.py` | Code | Produces the figures shown in section [Results](#results) |
 | `cif21.rho_epochs.py` | Code | Obtains the separation as a function of time spanning several epochs (e.g. `KO6AB.csv`, see section [Results](#results)) |
@@ -323,37 +323,32 @@ The following are the bibliographic references in alphabetical order for the dat
 | Cif20 | <a href="#">2020A&A...642A.115C</a> |
 | Clo02 | <a href="#">2002ApJ...567L..53C</a> |
 | Cru03 | <a href="#">2003AJ....126.2421C</a> |
-| Dhi02 | <a href="#">2010AJ....139.2566D</a> |
 | Dhi10 | <a href="#">2010AJ....139.2566D</a> |
-| Joy49 | <a href="#">1949ApJ...109..231J</a> |
 | Gau12 | <a href="#">2012MNRAS.427.2457G</a> |
 | Gra03 | <a href="#">2003AJ....126.2048G</a> |
 | Gra06 | <a href="#">2006AJ....132..161G</a> |
 | Hou88 | <a href="#">1988MSS...C04....0H</a> |
 | Hou99 | <a href="#">1999MSS...C05....0H</a> |
 | Joh86 | <a href="#">1986ApJ...310..354J</a> |
+| Joy49 | <a href="#">1949ApJ...109..231J</a> |
+| Law08 | <a href="#">2008MNRAS.384..150L</a> |
 | Lep13 | <a href="#">2013AJ....145..102L</a> |
-| McC99 | <a href="#">1999ApJS..121....1M</a> |
 | Mon18 | <a href="#">2018MNRAS.479.1332M</a> |
 | New14 | <a href="#">2014AJ....147...20N</a> |
 | Pec13 | <a href="#">2013ApJS..208....9P</a> |
 | Rei08 | <a href="#">2008AJ....136.1290R</a> |
 | Ria06 | <a href="#">2006AJ....132..866R</a> |
 | Ste86 | <a href="#">1986AJ.....92..139S</a> |
-| Tsv08 | <a href="#">2008AstL...34...17T</a> |
 
 ### Discoverer
 
 | Reference | Bibcode |
 | --- | --- |
-| Bal77 | <a href="#">1977SvAL....3..272B</a> |
-| Bur73 | <a href="#">1873MNRAS..33..351B</a> |
 | Cab07a | <a href="#">2007A&A...462L..61C</a> (KO 1) |
 | Cab07b | <a href="#">2007ApJ...667..520C</a> (KO 2 & KO 3) |
 | Cab12a | <a href="#">2012Obs...132....1C</a> (KO 4) |
 | Cab12b | <a href="#">2012Obs...132..176C</a> (KO 5) |
 | Cab12c | <a href="#">2012Obs...132..252C</a> (KO 6) |
-| Clo02 | <a href="#">2002ApJ&567L..53C</a> |
 | Dhi10 | <a href="#">2010AJ....139.2566D</a> |
 | Dun29 | <a href="#">1829MmRAS&3..257D</a> |
 | Gau12 | <a href="#">2012MNRAS.427.2457G</a> |
@@ -364,22 +359,17 @@ The following are the bibliographic references in alphabetical order for the dat
 | Jan06 | <a href="#">2006A&A...453..609J</a> |
 | Jan14 | <a href="#">2014ApJ...789..102J</a> |
 | Kna15 | <a href="#">2015JDSO...11..384K</a> |
-| Law06 | <a href="#">2006MNRAS.368.1917L</a> |
+| Law08 | <a href="#">2008MNRAS.384..150L</a> |
 | Lep01 | <a href="#">2001AJ....122.3407L</a> |
 | Lep13 | <a href="#">2013AJ....145..102L</a> |
-| Lop11 | <a href="#">2011JDSO....7...40L</a> |
 | Ric12 | <a href="#">2012JDSO....8..160R</a> |
-| Sou24 | <a href="#">1824RSPT..114R...1H</a> |
-| Tak20 | <a href="#">2020arXiv201004024T</a> |
 | Tok79 | <a href="#">1979SvAL....5..229T</a> |
 | Vys56 | <a href="#">1956AJ.....61..201V</a> |
-| Zac13 | <a href="#">2013AJ....145...44Z</a> |
 
 ### Parallaxes and proper motions
 
 | Reference | Bibcode |
 | --- | --- |
-| CatWISE20 | <a href="#">2020ApJS..247...69E</a> |
 | Dit14 | <a href="#">2014ApJ...784..156D</a> |
 | Gaia2 | <a href="#">2018yCat.1345....0G</a> |
 | GaiaEDR3 | <a href="#">2021A&A...649A...1G</a> |
@@ -391,7 +381,6 @@ The following are the bibliographic references in alphabetical order for the dat
 | --- | --- |
 | Bur15 | <a href="#">2015ApJS..220...18B</a> |
 | Gaia2 | <a href="#">2018yCat.1345....0G</a> |
-| GaiaEDR3 | <a href="#">2021A&A...649A...1G</a> |
 | New14 | <a href="#">2014AJ....147...20N</a> |
 | Shk10 | <a href="#">2010ApJ...716.1522S</a> |
 | Ter15 | <a href="#">2015ApJS..220...16T</a> |
