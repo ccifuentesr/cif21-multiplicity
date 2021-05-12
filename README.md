@@ -142,22 +142,25 @@ As a visual aid, values that comply with the criteria for physical binding (see 
 
 ### Directories
 
-- Directory ./: Includes all the code files classified as detailed below and the master table (`cif21.multiplicity.csv`). [XX files, YY MB]
-- Directory ./Astrometry/: Includes the astrometric data for the specific case of KO6 AB (see section [Results](#results)).
+- Directory ./: Stores all the files detailed below, including the master table (`cif21.multiplicity.csv`). [19 files, 54 MB]
 
 ### Files
 
 The complete list of files and their description goes as follows:
 
-| File | Type | Description | Input | Output| 
-| --- | --- | --- | --- | --- | 
-| cif21.charts.py | Code | Preliminar LaTeX chart for describing multiple systems | Main table | A .tex file for each star |
-| cif21.dphot.py | Code |  Photometric distance formulas (Table 5 in <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>) | G, r, J and errors | Two photometric distances estimated from G-J and r-J |
-| cif21.MR.py | Code | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweitzer et al. 2019</a> | Lbol, Teff and errors | Masses, radii and errors |
-| cif21.plots.py | Code | Plots the figures shown in section [Results](#results) | Main table | Four plots in .png format|
-| cif21.params.py | Code | Computes parameters to asses multiplicity of a system | Main table | See section [Parameters](#parameters) |
-| cif21.rho_epochs.py | Code | Obtains the separation as a function of time spanning several epochs. | Input | Output|
-| Mamajek_Pec13.csv | Code | Tabular data from <a href="https://ui.adsabs.harvard.edu/abs/2013ApJS..208....9P/abstract" target="_blank">Pecait & Mamajek 2013</a> |  | Output|
+| File | Type | Description | 
+| --- | --- | --- | 
+| `cif21.multiplicity.csv` | Input data | Main table as described below |
+| `Mamajek_Pec13.csv` | Input data | Tabular data from <a href="https://ui.adsabs.harvard.edu/abs/2013ApJS..208....9P/abstract" target="_blank">Pecaut & Mamajek 2013</a> |
+| `KO6AB.csv` | Input data | Positions during 11 epochs (1953-2015) for the system KO6 AB |
+| `cif21.charts.pdf` | Code | Obtains the separation as a function of time spanning several epochs (e.g. `KO6AB.csv`) |
+| `cif21.charts.py` | Code | Preliminar LaTeX chart for describing multiple systems |
+| `cif21.dphot.py` | Code |  Photometric distance formulas using _G_ and _J_ magnitudes (Table 5 in <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.115C/abstract" target="_blank">Cifuentes et al. 2020</a>) |
+| `cif21.MR.py` | Code | Radii and masses from Stefan-Boltzmann and <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...625A..68S/abstract" target="_blank">Schweitzer et al. 2019</a> |
+| `cif21.params.py` | Code | Computes parameters to decide on the multiplicity of a system (see section [Parameters](#parameters)) |
+| `cif21.plots.py` | Code | Produces the figures shown in section [Results](#results) |
+| `cif21.rho_epochs.py` | Code | Obtains the separation as a function of time spanning several epochs (e.g. `KO6AB.csv`, see section [Results](#results)) |
+| `*.png` | Images | Image files included in section [Results](#results) |
 
 
 ### The master table
