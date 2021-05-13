@@ -4,6 +4,7 @@
 1. <small id="f1">Centro de Astrobiología (CSIC-INTA), Madrid, Spain</small>
 2. <small id="f2">Lyceè Français, Madrid, Spain</small>
 
+<a href="https://zenodo.org/badge/latestdoi/329311083"><img src="https://zenodo.org/badge/329311083.svg" alt="DOI"></a>
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![Publication](https://img.shields.io/badge/Published%3F-no-orange.svg)]()
