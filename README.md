@@ -57,36 +57,6 @@ The competition for stable orbits is resolved with the fragmentation into multip
 
 ---
 
-## Parameters
-
-The following parameters are computed in this work. The subindex <img src="https://render.githubusercontent.com/render/math?math=B"> designates any other component different than the primary (i.e. B, C, D).
-
-| Parameter | Unit | Formula | Annotations | 
-| --- | --- | --- | --- | 
-| Distance  | pc | <img src="https://render.githubusercontent.com/render/math?math=d = 1000/\varpi"> | <img src="https://render.githubusercontent.com/render/math?math=\varpi"> is the trigonometric parallax in milliarcseconds. |
-| Physical separation  | au | <img src="https://render.githubusercontent.com/render/math?math=s = \rho d"> | |
-| Apparent separation (e.g. A and B)  | arcsec | <img src="https://render.githubusercontent.com/render/math?math=\rho = 3600 \sqrt{(\alpha_A-\alpha_B)^2 %2B (\delta_A-\delta_B)^2}"> | |
-| Total proper motion | km s-1 | <img src="https://render.githubusercontent.com/render/math?math=\mu = \sqrt{\mu_\alpha \cos{\delta}^2 %2B \mu_\delta^2}"> | |
-| Orbital period | a |  <img src="https://render.githubusercontent.com/render/math?math=P_{\orb} = 2\pi \sqrt{\frac{a^3}{\mu}}"> | <img src="https://render.githubusercontent.com/render/math?math=a \sim s"> and <img src="https://render.githubusercontent.com/render/math?math=\mu = GM"> is the standard gravitational parameter, where <img src="https://render.githubusercontent.com/render/math?math=M"> is the mass of the more massive body.  |
-| Binding energy | J |  <img src="https://render.githubusercontent.com/render/math?math=U_g = -M_A M_B/r"> | We approximate <img src="https://render.githubusercontent.com/render/math?math=r \sim s">, i.e. <img src="https://render.githubusercontent.com/render/math?math=-U_g^* = M_A M_B/s"> |
-
-### Criteria for physical parity
-
-The following parameters are used to discriminate between physical and visual pairs. 
-
-| Parameter | Unit | Formula | Annotations | 
-| --- | --- | --- | --- | 
-| <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio | - |  <img src="https://render.githubusercontent.com/render/math?math=(\mu {\ratio})^2 = \frac{(\mu_\alpha \cos{\delta}_A - \mu_\alpha \cos{\delta}_B)^2 %2B (\mu_\delta_A - \mu_\delta_B)^2}{(\mu_\alpha \cos{\delta})^2 %2B (\mu_\delta_A)^2} "> | |
-| Proper motion position angle difference (PA) | deg |  <img src="https://render.githubusercontent.com/render/math?math=\Delta PA = \lvert PA_A-PA_B \rvert"> | <img src="https://render.githubusercontent.com/render/math?math=PA_i"> is the angle between <img src="https://render.githubusercontent.com/render/math?math=\mu_\alpha \cos{\delta}_i"> and <img src="https://render.githubusercontent.com/render/math?math=\mu_{\delta,i}">.|
-| <img src="https://render.githubusercontent.com/render/math?math=\Delta d"> | - | <img src="https://render.githubusercontent.com/render/math?math=\Delta d = \lvert d_A-d_B \rvert/d_A"> | |
-
-**Notes:** 
-- <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio and <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> defined by <a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.1332M/abstract" target="_blank">Montes et al. 2018</a> (Mon18).
-- We define positive physical parity if:
-	- <img src="https://render.githubusercontent.com/render/math?math=\mu"> ratio < 0.15, and
-	- <img src="https://render.githubusercontent.com/render/math?math=\Delta PA"> < 15 deg, and
-	- <img src="https://render.githubusercontent.com/render/math?math=\Delta d"> < 0.10.
-
 ### Bolometric luminosities
 
 All luminosities were computed using the Virtual Observatory SED Analyzer (<a href="http://svo2.cab.inta-csic.es/theory/vosa/" target="_blank">VOSA</a>), using the BT-Settl CIFIST grid of models ([Fe/H] = 0.0). Close binaries (<img src="https://render.githubusercontent.com/render/math?math=\rho"> < 5 arcsec) are dismissed in this calculation.
