@@ -19,7 +19,6 @@
 ## Table of Contents
 
 - [Summary](#summary)
-- [Structure](#structure)
 - [Charts](#charts)
 - [Results](#results)
 - [References](#references)
@@ -53,40 +52,6 @@ Most multiple star systems are found to be triple.
 On the other hand, trapezia systems are usually very young and unstable.
 They interact strongly and chaotically in an N-body problem manner. 
 The competition for stable orbits is resolved with the fragmentation into multiple hierarchical systems.
-
----
-
-### Bolometric luminosities
-
-All luminosities were computed using the Virtual Observatory SED Analyzer (<a href="http://svo2.cab.inta-csic.es/theory/vosa/" target="_blank">VOSA</a>), using the BT-Settl CIFIST grid of models ([Fe/H] = 0.0). Close binaries (rho < 5 arcsec) are dismissed in this calculation.
-
-### Masses
-
-By priority:
-
-**Later or equal than K5 V:**
-1. Via bolometric luminosity using Cif20.
-2. Via spectral type using Cif20.
-3. Via absolute magnitud in G using Cif20 
-
-**Earlier than K5 V:**
-1. Via bolometric luminosity using Pec13.
-2. Via spectral type using Pec13.
-3. Via absolute magnitud in G using Pec13.
-
-### Spectral types
-
-By priority:
-
-**Later or equal than K5 V:**
-1. Via bolometric luminosity using Cif20.
-2. Via absolute magnitud in G using Cif20.
-	
-**Earlier than K5 V:**
-1. Via bolometric luminosity using Pec13.
-2. Via absolute magnitud in G using Pec13.
-3. Via absolute magnitud in J using Pec13.
-4. Via interpolation with known spectral type using absolute magnitud in J (only if 1-3 are not available).
 
 ---
 
