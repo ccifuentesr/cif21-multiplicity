@@ -19,7 +19,6 @@
 ## Table of Contents
 
 - [Summary](#summary)
-- [Parameters](#parameters)
 - [Structure](#structure)
 - [Charts](#charts)
 - [Results](#results)
@@ -59,7 +58,7 @@ The competition for stable orbits is resolved with the fragmentation into multip
 
 ### Bolometric luminosities
 
-All luminosities were computed using the Virtual Observatory SED Analyzer (<a href="http://svo2.cab.inta-csic.es/theory/vosa/" target="_blank">VOSA</a>), using the BT-Settl CIFIST grid of models ([Fe/H] = 0.0). Close binaries (<img src="https://render.githubusercontent.com/render/math?math=\rho"> < 5 arcsec) are dismissed in this calculation.
+All luminosities were computed using the Virtual Observatory SED Analyzer (<a href="http://svo2.cab.inta-csic.es/theory/vosa/" target="_blank">VOSA</a>), using the BT-Settl CIFIST grid of models ([Fe/H] = 0.0). Close binaries (rho < 5 arcsec) are dismissed in this calculation.
 
 ### Masses
 
@@ -191,8 +190,8 @@ The complete list of files and their description goes as follows:
 |		|	muratio_AC	|	-	|	mu ratio between A and C	|	As described by Mon18.
 |		|	deltaPA_AB	|	deg	|	Difference of positional angle between A and B	|	As described by Mon18.
 |		|	deltaPA_AC	|	deg	|	Difference of positional angle between A and C	|	As described by Mon18.
-|		|	deltad_AB	|	-	|	Distance ratio between A and B	|	Described as <img src="https://render.githubusercontent.com/render/math?math=d_A-d_B/d_A"> .
-|		|	deltad_AC	|	-	|	Distance ratio between A and C	|	Described as <img src="https://render.githubusercontent.com/render/math?math=\Delta d/d_A">.
+|		|	deltad_AB	|	-	|	Distance ratio between A and B	|	
+|		|	deltad_AC	|	-	|	Distance ratio between A and C	|	
 |		|	s_AB	|	au	|	Projected physical separation between A and B	|	
 |		|	s_AC	|	au	|	Projected physical separation between A and C	|	
 |		|	Ug_AB	|	1E33 J	|	Binding energy between A and B	|	
